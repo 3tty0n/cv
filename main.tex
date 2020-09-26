@@ -1,0 +1,292 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Compact Academic CV
+% LaTeX Template
+% Version 2.0 (6/7/2019)
+%
+% This template originates from:
+% https://www.LaTeXTemplates.com
+%
+% Authors:
+% Dario Taraborelli (http://nitens.org/taraborelli/home)
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt]{article} % Default document font size
+
+\usepackage{ifluatex,ifxetex}
+\ifluatex
+\usepackage{luatexja}
+\fi
+\ifxetex
+\usepackage{xeCJK}
+\setCJKmainfont{IPAMincho}
+\setCJKsansfont{IPAGothic}
+\setCJKmonofont{IPAGothic}
+\fi
+
+\input{structure.tex} % Include the file specifying the document structure and styling
+\newcommand{\YusukeIzawa}{\underline{Yusuke Izawa}}
+\newcommand{\伊澤侑祐}{\underline{伊澤侑祐}}
+\newcommand{\jit}{\textsc{JIT} }
+
+\newcommand{\entry}[2]{\years{#1} #2\smallskip}
+
+% Set PDF meta-information
+\hypersetup{
+	pdftitle={Yusuke Izawa - Curriculum vitae},
+	pdfauthor={Yusuke Izawa}
+}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	CONTACT AND GENERAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+{\LARGE\bfseries Yusuke \textsc{Izawa}} % Name
+\bigskip\bigskip\medskip % Whitespace
+
+2 Chome-12-1 Ookayama\\
+Meguro City, Tokyo 152-8550, Japan\\ % Address
+
+\medskip
+
+Phone: +8190-4027-6104\\ % Phone number
+Email: \href{mailto:izawa@prg.is.titech.ac.jp}{izawa@prg.is.titech.ac.jp}\\ % Email address
+\textsc{url}: \href{https://3tty0n.github.io}{https://3tty0n.github.io} \\ % Web site
+
+%------------------------------------------------
+
+\section*{Current position}
+
+\emph{PhD Candidate}, Department of Mathematical and Computing Science,
+Tokyo Institute of Technology % Current or most recent employment position
+
+%------------------------------------------------
+
+\section*{Areas of specialisation}
+
+Computer Science; Programming Language % Primary areas of research interest
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section*{Work experience}
+
+\entry{2018-2019}{Recruit Marketing Partners, Inc., Software Engineer, Self-employment.}
+
+\entry{2018}{Cookpad, Inc., Software Engineer, Internship. (Won \textbf{2nd Place})}
+
+\entry{2016-2017}{FOLIO, Inc., Software Engineer, Internship.}
+
+\entry{2016-2017}{KADOKAWA, Inc., Software Engineer, Internship.}
+
+\entry{2015-2016}{Summaly, Inc., Software Engineer, Internship.}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section*{Education}
+
+\years{2020}\textsc{MSc} in Mathematical and Computing Science, Tokyo Institute of Technology.
+
+\years{2018}\textsc{BSc} in Mathematical and Computing Science, Tokyo Institute of Technology.
+
+%----------------------------------------------------------------------------------------
+%	GRANTS, HONOURS AND AWARDS
+%----------------------------------------------------------------------------------------
+
+\section*{Grants, honours \& awards}
+
+\years{2021-2023} \textbf{Research Fellowship for Young Scientists (JSPS DC2)~~
+  【日本学術振興会特別研究員DC2】.}
+
+Fellowship from the Japan Society for the Promotion of Science (JSPS), covering
+living expenses. Research expenses covered by KAKENHI (科研費).
+
+\medskip
+
+\years{2020-2021} \textbf{Tokyo Tech Tsubame Scholarship for Doctoral
+  Students~~【東京工業大学 つばめ博士学生奨学金】.}
+
+Tokyo Tech's scholarship for doctoral students, covering living expenses.
+
+\medskip
+
+\years{2019} \textbf{2nd Place}, Graduate Category, ACM Student Research
+Competition, \textit{Association for Computing Machinerty.} [$\star$]
+
+\medskip
+
+\years{2019} \textbf{Information Science Incentive Fund~~【情報科学奨励基金】.}
+
+
+Travel grants by dept. of mathematical and computing science, Tokyo Tech.
+
+\medskip
+
+% \years{2015} First semester tuition waiver~~~【前期授業料免除】. Tokyo Institute of
+% Technology.\smallskip
+
+\years{2014-2018} \textbf{Scholarship by the Showa Scholarship Foundation~~~【昭
+  和奨学会奨学金】.}
+
+Japanese scholarship by Showa Scholarship Foundation (昭和奨学会), covering
+living expenses.
+
+\medskip
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS AND TALKS
+%----------------------------------------------------------------------------------------
+
+\section*{Publications \& talks}
+
+\years{2020} \YusukeIzawa, and Hidehiko Masuhara. Amalgamating Different \jit
+Compilations in a Meta-tracing \jit Compiler Framework. DLS 2020: Proceedings of
+the 16th ACM SIGPLAN International Symposium on Dynamic Languages. November
+2020. 14 pages. (accepted)
+\medskip
+
+\years{2020} 高橋修祐, \伊澤侑祐, 増原英彦. ライブプログラミング環境は多言語化/多
+開発環境化の夢を見るか. The 37th JSSST Anual Conference. Japan Society for
+Software Science and Technology (JSSST'20). No. 69. September 2020. Poster
+Presentation (in Japanese).
+\medskip
+
+\years{2020} \YusukeIzawa. Toward Hybrid Compilation in a Practical Meta-tracing
+\jit Compiler. Programming Language Mentoring Workshop, 41st ACM SIGPLAN
+Conference on Programming Language Design and Implementation (PLDI '20). June
+2020. Oral Presentation.
+\medskip
+
+\years{2020} \YusukeIzawa, and Hidehiko Masuhara. Making different \jit
+compilations dancing to the same tune, acting in the meta-level. The 22nd JSSST
+Workshop on Programming and Programming Languages (PPL '20), March 2020. Poster
+Presentation.
+\medskip
+
+\years{2019} \YusukeIzawa, Hidehiko Masuhara, Tomoyuki Aotani, and Youyou
+Cong. A stack hybridization for meta-hybrid just-in-time compilation. In Kei
+Ito, editor, Proceedings of the 36th JSSST Annual Conference, pages
+No. 2–L. Japan Society for Software Science and Technology (JSSST'19), August
+2019.
+\medskip
+
+\years{2019} \YusukeIzawa, Hidehiko Masuhara, and Tomoyuki
+Aotani. 2019. Extending a meta-tracing compiler to mix method and tracing
+compilation. In Proceedings of the Conference Companion of the 3rd International
+Conference on Art, Science, and Engineering of Programming (Programming
+’19). ACM, New York, NY, USA, Article 5, 1–3. DOI:
+\url{https://doi.org/10.1145/3328433.3328439}
+\medskip
+
+\years{2019} \YusukeIzawa. BacCaml: the meta-hybrid just-in-time compiler. In
+Proceedings of the Conference Companion of the 3rd International Conference on
+Art, Science, and Engineering of Programming (Programming ’19). ACM, New York,
+NY, USA, Article 32, 1–3. DOI:\url{https://doi.org/10.1145/3328433.3328466}
+(\textbf{Awarded} [$\star$])
+\medskip
+
+
+\years{2018} \YusukeIzawa, Hidehiko Masuhara, and Tomoyuki Aotani.  Meta-hybrid
+\jit Compilation Approach to the Path Divergence Problem. Kumiki 6.0. November
+2018. Oral Presentation.
+\medskip
+
+\years{2018} \伊澤侑祐, 増原英彦, 青谷知幸. メタ混合 \jit コンパイラの提案. The
+20nd JSSST Workshop on Programming and Programming Languages (PPL '18), March
+2018. Poster Presentation (in Japanese).
+\medskip
+
+%----------------------------------------------------------------------------------------
+%	TEACHING
+%----------------------------------------------------------------------------------------
+
+\section*{Teaching}
+
+\years{2020 (4Q)} Programming II, Tokyo Institute of Technology, Teaching Assistant
+
+\years{2019 (1Q)} Programming II, Tokyo Institute of Technology, Teaching Assistant
+
+\years{2019 (1Q)} Introduction to Computer Science, Tokyo Institute of Technology, Teaching Assistant
+
+\years{2018 (3Q)} Programming I, Tokyo Institute of Technology, Teaching Assistant
+
+\years{2018 (1Q)} Information Literacy 1, Tokyo Institute of Technology, Teaching Assistant
+
+%------------------------------------------------
+
+\section*{Academic services}
+
+\years{2020} Co-reviewer of Onward! Essays, SPLASH 2020, November 2020.
+
+\years{2020} Candidate of Programming Language Mentoring Workshop, PLDI 2020, June 2020.
+
+\years{2019} Member of Student Volunterr, Programming 2019, April 2019.
+
+\section*{Projects}
+
+\subsection*{BacCaml \, \href{https://github.com/prg-titech/baccaml}{(source code at GitHub)}}
+
+\medskip
+
+Trace-based compilation and method-based compilation are two major compilation
+strategies in \jit compilers. In general, the former excels in  compiling
+programs with deeper method calls and more dynamic branches, while  the latter
+is suitable wide range of programs.
+
+\medskip
+
+This project aims at developing fundamental mechanism for compiling with both
+trace-based and method-based strategies. Instead of developing  a compiler for
+one particular language, we provide such a mechanism in a meta-compilation
+framework, which generates a virtual machine with a \jit compiler from an
+interpreter definition of a programming language.
+
+\medskip
+
+We are developing the BacCamel meta-compiler framework as a proof-of-concept,
+which is based on the MinCaml compiler.
+
+\medskip
+
+\subsection*{Polyglot Kanon \, \href{https://github.com/prg-titech/Kanon}{(source code at GitHub)}}
+
+Kanon is a live programming environment that automatically and instantly visualizes runtime data-structures while the programmer is editing a program.
+Our goal is to have all languages running on top of Kanon and to make the program run fast.
+
+
+\vfill % Whitespace before final footer
+
+%----------------------------------------------------------------------------------------
+%	FINAL FOOTER
+%----------------------------------------------------------------------------------------
+
+% Any final footer text such as a URL to the latest version of this CV, last updated date, compiled in XeTeX, etc
+\begin{center}
+  \scriptsize
+  Last updated: \today~~\raisebox{-0.5pt}{\textbullet}~~
+  \href{https://3tty0n.github.io}{https://3tty0n.github.io}
+\end{center}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
+
+%%% Local Variables:
+%%% TeX-master: "main"
+%%% TeX-engine: luatex
+%%% End:
