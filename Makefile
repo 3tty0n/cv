@@ -8,10 +8,14 @@ clean:
 	$(LATEXMK) -c $(APP)
 
 DATE := $(shell date)
-deploy: $(APP).pdf
+deploy: $(APP).pdf  update
 	@cp $< docs/
 	@mv docs/main.pdf docs/cv.pdf
 	@git add docs/
 	@git commit -m "deploying at $(DATE)"
+
+update:
+	@git add .
+	@git commit -m "updated at $(DATE)"
 
 .PHONY: $(APP).pdf deploy clean
