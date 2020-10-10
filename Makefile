@@ -8,7 +8,9 @@ clean:
 	$(LATEXMK) -c $(APP)
 
 DATE := $(shell date)
-deploy: $(APP).pdf  update
+deploy: docs/$(APP).pdf  update
+
+docs/$(APP).pdf: $(APP).pdf
 	@cp $< docs/
 	@mv docs/main.pdf docs/cv.pdf
 	@git add docs/
