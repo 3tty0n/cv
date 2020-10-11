@@ -76,6 +76,11 @@
 %----------------------------------------------------------------------------------------
 
 \usepackage[usenames, dvipsnames]{xcolor} % Required for specifying colours by name
+\usepackage{color}
+
+\definecolor{color-text}{gray}{0.10}    % light black
+\definecolor{color-detail}{gray}{0.40}  % dark gray
+
 
 %----------------------------------------------------------------------------------------
 %	LINKS
@@ -90,3 +95,15 @@
 	filecolor=black,
 	urlcolor=MidnightBlue
 }
+
+%----------------------------------------------------------------------------------------
+%	ENTRIES
+%----------------------------------------------------------------------------------------
+\newcommand{\minientry}[2]{\noindent\years{#1} #2\smallskip}
+
+\newcommand{\grant}[3]{\noindent\years{#1}\textbf{#2} \newline #3 \vspace*{5pt}}
+\newcommand{\publication}[3]{\noindent\years{#1}\textbf{#2} \newline #3 \vspace*{5pt}}
+
+%----------------------------------------------------------------------------------------
+%	SECTION FORMATS
+% ----------------------------------------------------------------------------------------
