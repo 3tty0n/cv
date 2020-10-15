@@ -13,7 +13,7 @@ deploy: docs/$(APP).pdf  update
 docs/$(APP).pdf: $(APP).pdf
 	@cp $< docs/
 	@mv docs/main.pdf docs/cv.pdf
-	@git add -f --all
+	@git add docs/
 	@git commit -m "deploying at $(DATE)"
 
 update:
