@@ -15,11 +15,29 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\NeedsTeXFormat{LaTeX2e}[1994/06/01]
+\ProvidesPackage{plaincv}[2013/01/13 Plain CV]
+
+%----------------------------------------------------------------------------------------
+%	COLOURS
+%----------------------------------------------------------------------------------------
+
+\RequirePackage[usenames, dvipsnames, x11names]{xcolor} % Required for specifying colours by name
+\RequirePackage{color}
+
+\definecolor{color-text}{gray}{0.10}    % light black
+\definecolor{color-detail}{gray}{0.40}  % dark gray
+
+
 %----------------------------------------------------------------------------------------
 %	REQUIRED PACKAGES AND MISC CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
-\usepackage{graphicx} % Required for including images
+\RequirePackage{graphicx} % Required for including images
+\RequirePackage{tikz}
+\RequirePackage{tcolorbox}
+\usetikzlibrary{shapes,shadows,calc}
+\usetikzlibrary{positioning,calc}
 
 \setlength{\parindent}{0pt} % Stop paragraph indentation
 
@@ -27,12 +45,12 @@
 %	MARGINS
 %----------------------------------------------------------------------------------------
 
-\usepackage{geometry} % Required for adjusting page dimensions and margins
+\RequirePackage{geometry} % Required for adjusting page dimensions and margins
 
 \geometry{
 	paper=a4paper, % Paper size, change to letterpaper for US letter size
 	top=3.25cm, % Top margin
-	bottom=4cm, % Bottom margin
+	bottom=3.25cm, % Bottom margin
 	left=3.5cm, % Left margin
 	right=3.5cm, % Right margin
 	headheight=0.75cm, % Header height
@@ -45,48 +63,56 @@
 %	FONTS
 %----------------------------------------------------------------------------------------
 
-\usepackage[utf8]{inputenc} % Required for inputting international characters
-\usepackage[T1]{fontenc} % Output font encoding for international characters
+\RequirePackage[francais]{babel}
+\RequirePackage[utf8]{inputenc} % Required for inputting international characters
+\RequirePackage[T1]{fontenc} % Output font encoding for international characters
 
-\usepackage[semibold]{ebgaramond} % Use the EB Garamond font with a reduced bold weight
+\RequirePackage[semibold]{ebgaramond} % Use the EB Garamond font with a reduced bold weight
 
 %----------------------------------------------------------------------------------------
 %	SECTION STYLING
 %----------------------------------------------------------------------------------------
 
-\usepackage{sectsty} % Allows changing the font options for sections in a document
+\RequirePackage[explicit]{titlesec}
+% \RequirePackage{sectsty} % Allows changing the font options for sections in a document
 
-\sectionfont{\fontsize{13.5pt}{18pt}\selectfont} % Set font options for sections
-\subsectionfont{\mdseries\scshape\normalsize} % Set font options for subsections
-\subsubsectionfont{\mdseries\upshape\bfseries\normalsize} % Set font options for subsubsections
+%\sectionfont{\fontsize{13.5pt}{18pt}\selectfont} % Set font options for sections
+%\subsectionfont{\mdseries\scshape\normalsize} % Set font options for subsections
+%\subsubsectionfont{\mdseries\upshape\bfseries\normalsize} % Set font options for
+%subsubsections
+
+\titleformat{\section}
+{\normalfont\Large\sffamily\bfseries\color{CadetBlue4}}
+{\tcbox[colback=CadetBlue4, colframe=CadetBlue4, coltext=CadetBlue2!20, on
+  line,boxsep=0pt,left=4pt,right=4pt, top=4pt,bottom=4pt]{\thesection}}
+{0.2em}
+{\tikz{\draw[very thick, line width=5pt] (0,0) -- (.4,0);} #1}
+
+\titleformat{\subsection}
+{\normalfont\large\mdseries\bfseries\scshape\color{CadetBlue4}}
+{\tcbox[colback=CadetBlue4, colframe=CadetBlue4, coltext=CadetBlue2!20, on
+  line,boxsep=0pt,left=4pt,right=4pt, top=4pt,bottom=4pt]{\thesubsection}}
+{0.2em}
+{#1}
+
 
 %----------------------------------------------------------------------------------------
 %	MARGIN YEARS
 %----------------------------------------------------------------------------------------
 
-\usepackage{marginnote} % Required to output text in the margin
+\RequirePackage{marginnote} % Required to output text in the margin
 
-\newcommand{\years}[1]{\marginnote{\scriptsize #1}} % New command for adding years to the margin
+\newcommand{\years}[1]{\marginnote{\small #1}} % New command for adding years to the margin
 \renewcommand*{\raggedleftmarginnote}{} % Left-align the years in the margin
-\setlength{\marginparsep}{-0pt} % Move the margin content closer to the text
+\setlength{\marginparsep}{20pt} % Move the margin content closer to the text
 \reversemarginpar % Margin text to be output into the left margin instead of the default right margin
-
-%----------------------------------------------------------------------------------------
-%	COLOURS
-%----------------------------------------------------------------------------------------
-
-\usepackage[usenames, dvipsnames]{xcolor} % Required for specifying colours by name
-\usepackage{color}
-
-\definecolor{color-text}{gray}{0.10}    % light black
-\definecolor{color-detail}{gray}{0.40}  % dark gray
 
 
 %----------------------------------------------------------------------------------------
 %	LINKS
 %----------------------------------------------------------------------------------------
 
-\usepackage[bookmarks, colorlinks, breaklinks]{hyperref} % Required for links
+\RequirePackage[bookmarks, colorlinks, breaklinks]{hyperref} % Required for links
 
 % Set link colours
 \hypersetup{
@@ -107,3 +133,5 @@
 %----------------------------------------------------------------------------------------
 %	SECTION FORMATS
 % ----------------------------------------------------------------------------------------
+
+\endinput
