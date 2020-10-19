@@ -15,9 +15,10 @@ docs/$(APP).pdf: $(APP).pdf
 	@mv docs/main.pdf docs/cv.pdf
 	@git add -f docs/
 	@git commit -m "deploying at $(DATE)"
+	@git push
 
 update:
 	@git add .
 	@git commit -m "updated at $(DATE)"
 
-.PHONY: $(APP).pdf deploy clean
+.PHONY: docs/$(APP).pdf $(APP).pdf deploy update clean
