@@ -1,338 +1,98 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Compact Academic CV
-% LaTeX Template
-% Version 2.0 (6/7/2019)
+%%%%%%%%%%%%%%%
+% This CV example/template is based on my own
+% CV which I (lamely attempted) to clean up, so that
+% it's less of an eyesore and easier for others to use.
 %
-% This template originates from:
-% https://www.LaTeXTemplates.com
+% LianTze Lim (liantze@gmail.com)
+% 13 May, 2020
 %
-% Authors:
-% Dario Taraborelli (http://nitens.org/taraborelli/home)
-% Vel (vel@LaTeXTemplates.com)
-%
-% License:
-% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[a4paper,skipsamekey,11pt,english]{curve}
 
-%----------------------------------------------------------------------------------------
-%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
-%----------------------------------------------------------------------------------------
+% Uncomment to enable Chinese; needs XeLaTeX
+% \usepackage{ctex}
 
-\documentclass[11pt]{article} % Default document font size
+\usepackage{settings}
+\usepackage{hyperref}
 
-\usepackage{ifluatex,ifxetex}
+% Change the fonts if you want
+\ifxetexorluatex % If you're using XeLaTeX or LuaLaTeX
+  \usepackage{fontspec}
+  %% You can use \setmainfont etc; I'm just using these font packages here because they provide OpenType fonts for use by XeLaTeX/LuaLaTeX anyway
+  \usepackage[p,osf,swashQ]{cochineal}
+  \usepackage[medium,bold]{cabin}
+  \usepackage[varqu,varl,scale=0.9]{zi4}
+\else % If you're using pdfLaTeX or latex
+  \usepackage[T1]{fontenc}
+  \usepackage[p,osf,swashQ]{cochineal}
+  \usepackage{cabin}
+  \usepackage[varqu,varl,scale=0.9]{zi4}
+\fi
+
 \ifluatex
 \usepackage{luatexja}
-\fi
-\ifxetex
-\usepackage{xeCJK}
-\setCJKmainfont{IPAMincho}
-\setCJKsansfont{IPAGothic}
-\setCJKmonofont{IPAGothic}
+\usepackage{luatexja-preset}
 \fi
 
-% Include the file specifying the document structure and styling
-\usepackage{plaincv}
+%% Only needed if you want a Publication List
+\addbibresource{my-bib.bib}
 
-\newcommand{\YusukeIzawa}{\underline{Yusuke Izawa}}
-\newcommand{\伊澤侑祐}{\underline{伊澤侑祐}}
-\newcommand{\jit}{\textsc{JIT} }
+%% Specify your last name and first name (as given in the .bib) to automatically bold your own name in the publications list. One caveat: You need to write \bibnamedelima where there's a space in your name for this to work properly for now...
+\myname{Yu}{Yusuke\bibnamedelima Izawa}
+% \myname{d'Andrimont}{Raphaël}
 
-% Set PDF meta-information
-\hypersetup{
-	pdftitle={Yusuke Izawa - Curriculum vitae},
-	pdfauthor={Yusuke Izawa}
+% Change the page margins if you want
+% \geometry{left=1cm,right=1cm,top=1.5cm,bottom=1.5cm}
+
+% Change the colours if you want
+% \definecolor{SwishLineColour}{HTML}{00FFFF}
+% \definecolor{MarkerColour}{HTML}{0000CC}
+
+% Change the item prefix marker if you want
+% \prefixmarker{$\diamond$}
+
+%% Photo is only shown if "fullonly" is included
+\includecomment{fullonly}
+% \excludecomment{fullonly}
+
+\newcommand{\jit}{JIT}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\leftheader{%
+  {\LARGE\bfseries\sffamily Yusuke Izawa, Ph.D. student}
+
+  \makefield{\faEnvelope[regular]}{\texttt{yizawa@acm.org}}
+  \makefield{\faTwitter}{\texttt{@yusuke\_izawa}}
+
+  \makefield{\faGlobe}{\url{https://3tty0n.github.io}}
+
+  % \makefield{\faLinkedin}
+  % {\url{http://www.linkedin.com/in/example/}}
 }
 
-%----------------------------------------------------------------------------------------
+\rightheader{~}
+\begin{fullonly}
+\photo[r]{photo}
+\photoscale{0.13}
+\end{fullonly}
+
+\title{Curriculum Vitae}
 
 \begin{document}
-
-%----------------------------------------------------------------------------------------
-%	CONTACT AND GENERAL INFORMATION
-%----------------------------------------------------------------------------------------
-
-{\LARGE\sffamily\bfseries\color{CadetBlue4} Yusuke \textsc{Izawa}} % Name
-\bigskip\bigskip % Whitespace
-
-2 Chome-12-1 Ookayama\\
-Meguro City, Tokyo 152-8550, Japan\\ % Address
-
-\medskip
-
-Phone: +8190-4027-6104\\ % Phone number
-Email: \href{mailto:izawa@prg.is.titech.ac.jp}{izawa@prg.is.titech.ac.jp}\\ % Email address
-\textsc{url}: \href{https://3tty0n.github.io}{https://3tty0n.github.io} \\ % Web site
-
-%------------------------------------------------
-
-\section*{Current position}
-
-\emph{PhD Candidate}, Department of Mathematical and Computing Science,
-Tokyo Institute of Technology~~~【東京工業大学 情報理工学院 数理・計算科学系 博士課程】
-
-% Current or most recent employment position
-
-%------------------------------------------------
-
-\section*{Areas of specialisation}
-
-Computer Science; Programming Language~~~【計算機科学, プログラミング言語】
-% Primary areas of research interest
-
-%----------------------------------------------------------------------------------------
-%	WORK EXPERIENCE
-%----------------------------------------------------------------------------------------
-
-\section*{Work experience}
-
-\minientry{2020.11--2023.3}{Tokyo Institute of Technology, Dept. of Math. and Comp., Research Assistant.}
-
-\minientry{2018.6--2019.2}{Recruit Marketing Partners, Inc., Software Engineer, Self-employment.}
-
-\minientry{2018.8}{Cookpad, Inc., Software Engineer, Internship. (Won \textbf{2nd Place})}
-
-\minientry{2017.4--2018.3}{FOLIO, Inc., Software Engineer, Internship.}
-
-\minientry{2016.8--2017.3}{DOWANGO, Inc., Software Engineer, Internship.}
-
-\minientry{2016.1--2016.6}{Summaly, Inc., Software Engineer, Internship.}
-
-%----------------------------------------------------------------------------------------
-%	EDUCATION
-%----------------------------------------------------------------------------------------
-
-\section*{Education}
-
-\minientry{2020}{\textsc{MSc} in Mathematical and Computing Science, Tokyo Institute of Technology.}
-
-\minientry{2018}{\textsc{BSc} in Mathematical and Computing Science, Tokyo Institute of Technology.}
-
-%----------------------------------------------------------------------------------------
-%	GRANTS, HONOURS AND AWARDS
-%----------------------------------------------------------------------------------------
-
-\section*{Grants, honours \& awards}
-
-\grant
-{2021.4--2023.3}
-{Research Fellowship for Young Scientists (JSPS DC2)~~【日本学術振興会特別研究員DC2】.}
-{Fellowship from the Japan Society for the Promotion of Science (JSPS), covering
-  living expenses. Research expenses covered by KAKENHI (科研費).}
-
-\grant
-{2020.11--2023.3}
-{JST Strategic Basic Research Programs ACT-X 【科学技術振興機構 戦略的創造研究推進事業 ACT-X】.}
-{Research expenses covered by Japan Science and Technology Agency (JST).}
-
-\grant
-{2020.4--2021.3}
-{Tokyo Tech Tsubame Scholarship for Doctoral Students~~【東京工業大学 つばめ博士学生
-  奨学金】.}
-{Tokyo Tech's scholarship for doctoral students, covering living expenses.}
-
-\grant
-{2019.4}
-{2nd Place, Graduate Category, ACM Student Research Competition, \textit{Association for Computing Machinery.}
-  [$\star$]}
-{Title: ``BacCaml: The Meta-Hybrid Just-In-Time Compiler''}
-
-\grant
-{2019.4}
-{Travel Grants by Information Science Incentive Fund~~【情報科学奨励基金】.}
-{Covered by dept. of mathematical and computing science, Tokyo Tech.}
-
-% \grant
-% {2015}
-% {First Semester Tuition Waiver~~~【前期授業料免除】}
-% {Waiving the half of tuition of bachelor courses at Tokyo Institute of Technology.}
-
-\grant
-{2014.4--2018.3}
-{Scholarship by the Showa Scholarship Foundation~~~【昭和奨学会奨学金】.}
-{Japanese scholarship by Showa Scholarship Foundation (昭和奨学会), covering
-  living expenses.}
-
-%----------------------------------------------------------------------------------------
-%	PUBLICATIONS AND TALKS
-%----------------------------------------------------------------------------------------
-
-\section*{Publications}
-
-\subsection*{Peer-reviewed}
-
-\years{2020} \YusukeIzawa{} and Hidehiko Masuhara. 2020. Amalgamating different JIT
-compilations in a meta-tracing JIT compiler framework. In Proceedings of the 16th ACM
-SIGPLAN International Symposium on Dynamic Languages (DLS 2020). ACM, New York, NY,
-USA, 1–15. DOI:\url{https://doi.org/10.1145/3426422.3426977}
-\medskip
-
-\years{2019} \YusukeIzawa, Hidehiko Masuhara, and Tomoyuki
-Aotani. 2019. Extending a meta-tracing compiler to mix method and tracing
-compilation. In Proceedings of the Conference Companion of the 3rd International
-Conference on Art, Science, and Engineering of Programming (Programming
-’19). ACM, New York, NY, USA, Article 5, 1–3. DOI:\url{https://doi.org/10.1145/3328433.3328439}
-\medskip
-
-\years{2019} \YusukeIzawa. BacCaml: the meta-hybrid just-in-time compiler. 2019. In
-Proceedings of the Conference Companion of the 3rd International Conference on
-Art, Science, and Engineering of Programming (Programming ’19). ACM, New York,
-NY, USA, Article 32, 1–3. DOI:\url{https://doi.org/10.1145/3328433.3328466}
-(\textbf{Awarded} [$\star$])
-\medskip
-
-\subsection*{Non-peer-reviewed}
-
-\years{2019} \YusukeIzawa, Hidehiko Masuhara, Tomoyuki Aotani, and Youyou
-Cong. A stack hybridization for meta-hybrid just-in-time compilation. In Kei
-Ito, editor, Proceedings of the 36th JSSST Annual Conference, pages
-No. 2–L. Japan Society for Software Science and Technology (JSSST '19), August
-2019.
-\medskip
-
-\section*{Talks}
-
-\subsection*{Invited}
-
-\years{2021} \YusukeIzawa{} and Hidehiko Masuhara. 2021. Amalgamating different JIT
-compilations in a meta-tracing JIT compiler framework. The 23nd JSSST
-Workshop on Programming and Programming Languages (PPL '21), March 2021.
-(in Japanese).
-\medskip
-
-\subsection*{Peer-reviewed}
-
-\years{2020} Hidehiko Masuhara, Shusuke Takahasi, \YusukeIzawa, and Youyou
-Cong. 2020. Toward a multi-Language and multi-environment framework for live programming.
-In Brian Hempel and Roly Perera, editors, Proceedings of the 2020 Workshop on Live
-Programming (colocated with SPLASH 2020), November 2020.
-\medskip
-
-\subsection*{Non-peer-reviewed}
-
-\years{2021} \YusukeIzawa{}, Hidehiko Masuhara, and Youyou Cong. 2021. An Interpreter
-Design for Supporting Different JIT Compilations in RPython Framework.
-The 23nd JSSST Workshop on Programming and Programming Languages (PPL '21), March 2021.
-Poster presentation (in Japanese).
-\medskip
-
-\years{2021} Shusuke Takahashi, \YusukeIzawa{}, Hidehiko Masuhara, and Youyou Cong. 2021.
-汎言語的ライブプログラミング環境のためのデータ構造解析手法.
-The 23nd JSSST Workshop on Programming and Programming Languages (PPL '21), March 2021.
-Poster presentation (in Japanese).
-\medskip
-
-\years{2020} 高橋修祐, \伊澤侑祐, 増原英彦. ライブプログラミング環境は多言語化/多
-開発環境化の夢を見るか. The 37th JSSST Anual Conference. Japan Society for
-Software Science and Technology (JSSST '20). No. 69. September 2020. Poster
-presentation (in Japanese).
-\medskip
-
-\years{2020} \YusukeIzawa. Toward Hybrid Compilation in a Practical Meta-tracing
-\jit Compiler. PLMW: Programming Language Mentoring Workshop co-located with 41st
-ACM SIGPLAN Conference on Programming Language Design and Implementation
-(PLDI'20). June 2020. Short talk.
-\medskip
-
-\years{2020} \YusukeIzawa, and Hidehiko Masuhara. Making different \jit
-compilations dancing to the same tune, acting in the meta-level. The 22nd JSSST
-Workshop on Programming and Programming Languages (PPL '20), March 2020. Poster
-presentation.
-\medskip
-
-% \years{2018} \YusukeIzawa, Hidehiko Masuhara, and Tomoyuki Aotani.  Meta-hybrid
-% \jit Compilation Approach to the Path Divergence Problem. Kumiki 6.0. November
-% 2018. Oral presentation.
-% \medskip
-
-\years{2018} \伊澤侑祐, 増原英彦, 青谷知幸. メタ混合 \jit コンパイラの提案. The
-20nd JSSST Workshop on Programming and Programming Languages (PPL '18), March
-2018. Poster presentation (in Japanese).
-\medskip
-
-%----------------------------------------------------------------------------------------
-%	TEACHING
-%----------------------------------------------------------------------------------------
-
-\section*{Teaching}
-
-\years{2020 (4Q)} Programming II, Tokyo Institute of Technology, Teaching Assistant
-
-\years{2019 (1Q)} Programming II, Tokyo Institute of Technology, Teaching Assistant
-
-\years{2019 (1Q)} Introduction to Computer Science, Tokyo Institute of Technology, Teaching Assistant
-
-\years{2018 (3Q)} Programming I, Tokyo Institute of Technology, Teaching Assistant
-
-\years{2018 (1Q)} Information Literacy 1, Tokyo Institute of Technology, Teaching Assistant
-
-%------------------------------------------------
-
-\section*{Academic services}
-
-\years{2020} Member of Student Volunteer, SPLASH 2020, November 2020.
-
-\years{2020} Co-reviewer of Onward! Essays, SPLASH 2020, November 2020.
-
-\years{2020} Candidate of Programming Language Mentoring Workshop, PLDI 2020, June 2020.
-
-\years{2019} Member of Student Volunteer, Programming 2019, April 2019.
-
-\section*{Projects}
-
-\subsection*{BacCaml \, \href{https://github.com/prg-titech/baccaml}{(source code at GitHub)}}
-
-\medskip
-
-Trace-based compilation and method-based compilation are two major compilation
-strategies in \jit compilers. In general, the former excels in  compiling
-programs with deeper method calls and more dynamic branches, while  the latter
-is suitable wide range of programs.
-
-\medskip
-
-This project aims at developing fundamental mechanism for compiling with both
-trace-based and method-based strategies. Instead of developing  a compiler for
-one particular language, we provide such a mechanism in a meta-compilation
-framework, which generates a virtual machine with a \jit compiler from an
-interpreter definition of a programming language.
-
-\medskip
-
-We are developing the BacCamel meta-compiler framework as a proof-of-concept,
-which is based on the MinCaml compiler.
-
-\medskip
-
-\subsection*{Poly$^2$ Kanon \,
-  \href{https://github.com/prg-titech/Kanon}{(source code at GitHub)}}
-
-Kanon is a live programming environment that automatically and instantly
-visualizes runtime data-structures while the programmer is editing a
-program. Our goal is to have all languages running on top of Kanon and to make
-the program run fast.
-
-
-\vfill % Whitespace before final footer
-
-%----------------------------------------------------------------------------------------
-%	FINAL FOOTER
-%----------------------------------------------------------------------------------------
-
-% Any final footer text such as a URL to the latest version of this CV, last updated date, compiled in XeTeX, etc
-\begin{center}
-  \scriptsize
-  Last updated: \today~~\raisebox{-0.5pt}{\textbullet}~~
-  \href{https://3tty0n.github.io}{https://3tty0n.github.io}
-\end{center}
-
-%----------------------------------------------------------------------------------------
+\makeheaders[c]
+
+\makerubric{education}
+\makerubric{misc}
+
+% If you're not a researcher nor an academic, you probably don't have any publications; delete this line.
+%% Sometimes when a section can't be nicely modelled with the \entry[]... mechanism; hack our own and use \input NOT \makerubric
+\input{publications}
+
+\makerubric{academicservices}
+\makerubric{teaching}
+\makerubric{employment}
+\makerubric{skills}
 
 \end{document}
-
-%%% Local Variables:
-%%% TeX-master: "main"
-%%% TeX-engine: luatex
-%%% fill-column: 85
-%%% End:

@@ -1,4 +1,4 @@
-APP = cv-llt
+APP = main
 LATEXMK = latexmk
 
 $(APP).pdf: $(APP).tex
