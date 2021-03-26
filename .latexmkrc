@@ -1,4 +1,8 @@
-@default_files = ('main.tex');
-$lualatex = 'lualatex -halt-on-error -shell-escape -file-line-error --synctex=1 -interaction=nonstopmode %O %S';
-$xelatex  = 'xelatex -halt-on-error -shell-escape -file-line-error -synctex=1 -interaction=nonstopmode %O %S';
-$pdf_mode = 4;
+#!/usr/bin/env perl
+@default_files = ('cv-llt.tex');
+$pdflatex  = 'pdflatex %O -halt-on-error -shell-escape --synctex=1 -interaction=nonstopmode %S';
+$lualatex  = 'lualatex %O -halt-on-error -shell-escape --synctex=1 -interaction=nonstopmode %S';
+$biber     = 'biber %O --bblencoding=utf8 -u -U --output_safechars %B';
+$bibtex    = 'bibtex %O %B';
+$clean_ext = "nav out snm sta";
+$pdf_mode  = 4;
