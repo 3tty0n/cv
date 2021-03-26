@@ -1,4 +1,4 @@
-APP = main
+APP = cv-llt
 LATEXMK = latexmk
 
 $(APP).pdf: $(APP).tex
@@ -9,8 +9,7 @@ clean:
 
 DATE := $(shell date)
 deploy:
-	@cp $(APP).pdf docs/
-	@mv docs/main.pdf docs/cv.pdf
+	@cp $(APP).pdf docs/cv.pdf
 	@git add -f docs/
 	@git commit -m "deploying at $(DATE)"
 	@git push
