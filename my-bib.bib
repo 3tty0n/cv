@@ -49,7 +49,7 @@ location = {Genova, Italy},
 series = {Programming '19},
 note = {\textbf{Awarded [*]}}
 }
-@unpublished{izawa2019jssst,
+@inbook{izawa2019jssst,
 organization = {{J}apan Society for Software Science and Technology ({JSSST})},
 location = {Shibaura Institute of Technology, Tokyo, Japan},
 editor = {Kei Ito},
@@ -61,6 +61,7 @@ pages = {No.~2-L},
 review = {false},
 keywords = {PyPy, BacCaml, MinCaml, RPython},
 pdf = {jssst2019jit.pdf},
+url = {http://jssst.or.jp/files/user/taikai/2019/proceedings.html},
 note = {nonrefereed},
 abstract = {Meta-interpreter-based language implementation frameworks, such as RPython and Truffe/Graal, are convenient tool for implementing state-of-the-art virtual machines. Those frameworks are classified into trace-based and method- (or ast-) based strategies. RPython uses a trace-based policy to compile straight execution paths, while Truffe/Graal leverages method invocation to compile entire method bodies. Each approach has its own advantages and disadvantages. The trace-based strategy is good at compiling pro- grams with many branching possibilities and able to reduce the size of compiled code, but it is weak at programs with varying control-flow. The method-based strategy is robust with the latter type of programs but it needs thorough method-inlining management to achieve excellent performance. To take advantage of both strategies, we propose a meta-hybrid compilation technique to integrate trace- and method-based compilations, as well as a proof-of-concept implementation called BacCaml. To achieve this goal, we develop a stack hybridization mechanism which makes it possible to coordinate trace- and method-based meta JIT compilation. In the implementation, we extend RPython's architecture and introduced a special syntax for realizing this system in a single interpreter definition.}
 }
