@@ -33,9 +33,25 @@
 \definecolor{SwishLineColour}{HTML}{88AC0B}
 \definecolor{MarkerColour}{HTML}{B6073F}
 
-% If you're not a researcher nor an academic, you probably don't need biblatex; delete this line.
-\RequirePackage[bibstyle=apa6,sorting=ymdnt,defernumbers=true,maxbibnames=99,backend=biber]{biblatex}
+\RequirePackage{tikz}
+\newcommand*\circled[1]{\tikz[baseline=(char.base)]{
+   \node[shape=circle,text=white,fill=MarkerColour!80!black,font=\sffamily\scriptsize\bfseries,inner sep=1pt,text height=1.35ex,minimum width=1.5em,text centered] (char) {#1};}}
+
+\RequirePackage{polyglossia}
+\setdefaultlanguage{english}
+% If you're not a researcher nor an academic, you probably don't need biblatex;
+% delete this line.
+\RequirePackage[bibstyle=addromanised,language=auto,autolang=langname,sorting=ymdnt,defernumbers=true,maxbibnames=99,backend=biber]{biblatex}
+
+% Setting a custom bibitem counter
+\newcounter{bibitem}
+\AtBeginBibliography{\setcounter{bibitem}{1}}
+\AtEveryBibitem{\stepcounter{bibitem}}
+\DeclareFieldFormat{labelnumberwidth}{\makebox[2.5em]{\circled{\thebibitem}}}
+
+\setlength{\biblabelsep}{0pt}
 \RequirePackage{csquotes}
+
 %% Added 17 Jan 2018 from https://tex.stackexchange.com/a/140641/226 and https://tex.stackexchange.com/a/46879/226
 \DeclareSortingTemplate{ymdnt}{
   \sort{
@@ -70,14 +86,6 @@
     \field{title}
   }
 }
-
-\RequirePackage{tikz}
-\newcommand*\circled[1]{\tikz[baseline=(char.base)]{
-   \node[shape=circle,text=white,fill=MarkerColour!80!black,font=\sffamily\scriptsize\bfseries,inner sep=1pt,text height=1.35ex,minimum width=1.5em,text centered] (char) {#1};}}
-
-\newcounter{bibitem}
-\AtBeginBibliography{\setcounter{bibitem}{1}}
-\AtEveryBibitem{\makebox[2.5em][l]{\circled{\thebibitem}\stepcounter{bibitem}}}
 
 % \renewcommand{\bibfont}{\small}
 \setlength{\bibitemsep}{1.5ex}

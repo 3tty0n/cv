@@ -1,0 +1,64 @@
+\ProvidesFile{addromanised.bbx}
+
+%A base style
+\RequireBibliographyStyle{numeric}
+
+%Check what bibmacros need to be rewritten. See the style you are using as a base to find out the macros. They usually come from:
+%https://mirror.hmc.edu/ctan/macros/latex/exptl/biblatex/latex/bbx/standard.bbx
+%https://github.com/plk/biblatex/blob/dev/tex/latex/biblatex/biblatex.def
+
+\renewbibmacro*{title}{%
+  \iffieldundef{title_romanised}{%
+    \printfield{title}%
+  }{%
+    \printfield{title} (\printfield{title_romanised})%
+  }%
+}%
+
+\renewbibmacro*{editor+others}{%
+  \ifboolexpr{
+    test \ifuseeditor
+    and
+    not test {\ifnameundef{editor}}
+  }
+    {\ifnameundef{editor_romanised}{%
+      \printnames{editor} %
+    }{%
+      \printnames{editor} (\printnames{editor_romanised}) %
+    }%
+     \setunit{\printdelim{editortypedelim}}%
+     \usebibmacro{editor+othersstrg}%
+     \clearname{editor}}
+    {}}
+
+\DeclareSortingScheme{romanisednyvt}{
+  \sort{
+    \field{presort}
+  }
+  \sort[final]{
+    \field{sortkey}
+  }
+  \sort{
+    \field{sortname}
+    \field{author_romanised}
+    \field{author}
+    \field{editor_romanised}
+    \field{editor}
+    \field{translator}
+    \field{sorttitle}
+    \field{title_romanised}
+    \field{title}
+  }
+  \sort{
+    \field{sortyear}
+    \field{year}
+  }
+  \sort{
+    \field{volume}
+    \literal{0}
+  }
+  \sort{
+    \field{sorttitle}
+    \field{title}
+  }
+}
