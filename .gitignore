@@ -24,3 +24,5 @@
 *.bcf
 *.run.xml
 comment.cut
+
+auto/
