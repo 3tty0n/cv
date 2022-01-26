@@ -21,7 +21,9 @@
   \usepackage[p,osf,swashQ]{cochineal}
   \usepackage[medium,bold]{cabin}
   \usepackage[varqu,varl,scale=0.9]{zi4}
+  \urlstyle{rm}
 \else % If you're using pdfLaTeX or latex
+
   \usepackage[T1]{fontenc}
   \usepackage[p,osf,swashQ]{cochineal}
   \usepackage{cabin}
@@ -33,6 +35,16 @@
 \usepackage{luatexja-preset}
 \fi
 
+\ifxetex
+\usepackage{xeCJK}
+\setCJKmainfont[BoldFont=NotoSerifCJKjp-Black]{NotoSerifCJKjp-Light}
+\setCJKsansfont[BoldFont=NotoSansCJKjp-Black]{NotoSansCJKjp-Light}
+\setCJKmonofont[BoldFont=NotoSansCJKjp-Black]{NotoSansCJKjp-Light}
+\fi
+
+\defbibcheck{annoterefereed}{\iffieldequalstr{annotation}{refereed}{}{\skipentry}}
+\defbibcheck{annotenonrefereed}{\iffieldequalstr{annotation}{nonrefereed}{}{\skipentry}}
+
 %% Only needed if you want a Publication List
 \addbibresource{my-bib.bib}
 
@@ -42,7 +54,6 @@
 
 % Change the page margins if you want
 % \geometry{left=1cm,right=1cm,top=1.5cm,bottom=1.5cm}
-
 % Change the colours if you want
 % \definecolor{SwishLineColour}{HTML}{00FFFF}
 % \definecolor{MarkerColour}{HTML}{0000CC}

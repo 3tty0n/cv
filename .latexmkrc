@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-@default_files = ('main.tex');
+@default_files = ('yizawa.tex');
 $pdflatex  = 'pdflatex %O -halt-on-error -shell-escape --synctex=1 -interaction=nonstopmode %S';
 $lualatex  = 'lualatex %O -halt-on-error -shell-escape --synctex=1 -interaction=nonstopmode %S';
 $biber     = 'biber %O --bblencoding=utf8 -u -U --output_safechars %B';

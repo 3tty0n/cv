@@ -1,4 +1,4 @@
-APP = main
+APP = yizawa
 LATEXMK = latexmk
 
 $(APP).pdf: $(APP).tex
