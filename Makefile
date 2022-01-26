@@ -9,7 +9,7 @@ clean:
 
 DATE := $(shell date)
 deploy: $(APP).pdf update
-	@cp $(APP).pdf docs/cv.pdf
+	@cp $(APP).pdf docs
 	@git add -f docs/
 	@git commit -m "deploying at $(DATE)"
 	@git push
