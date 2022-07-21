@@ -44,6 +44,9 @@
 
 \defbibcheck{annoterefereed}{\iffieldequalstr{annotation}{refereed}{}{\skipentry}}
 \defbibcheck{annotenonrefereed}{\iffieldequalstr{annotation}{nonrefereed}{}{\skipentry}}
+\defbibcheck{annoteselected}{\iffieldequalstr{note}{selected}{}{\skipentry}}
+
+\AtEveryBibitem{\clearfield{note}}
 
 %% Only needed if you want a Publication List
 \addbibresource{my-bib.bib}
@@ -74,10 +77,12 @@
 \leftheader{%
   {\LARGE\bfseries\sffamily Yusuke Izawa, Ph.D. student, PyPy Contributor}
 
-  \makefield{\faEnvelope[regular]}{\texttt{me@yizawa.com}}
-  \makefield{\faTwitter}{\texttt{@yusuke\_izawa}}
+  \makefield{\faEnvelope}{\href{mailto:me@yizawa.com}{me@yizawa.com}}
+  \makefield{\faTwitter}{\texttt{\href{https://twitter.com/yusuke_izawa}{@yusuke\_izawa}}}
 
   \makefield{\faGlobe}{\url{https://www.yuiza.org}}
+
+  \makefield{\faHome}{2 Chome-12--1 Ookayama, Meguro City, Tokyo 152--8550}
 
   % \makefield{\faLinkedin}
   % {\url{http://www.linkedin.com/in/example/}}
@@ -101,6 +106,8 @@
 % If you're not a researcher nor an academic, you probably don't have any publications; delete this line.
 %% Sometimes when a section can't be nicely modelled with the \entry[]... mechanism; hack our own and use \input NOT \makerubric
 \input{publications}
+
+\makerubric{projects}
 
 \makerubric{academicservices}
 \makerubric{teaching}
