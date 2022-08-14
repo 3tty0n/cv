@@ -1,0 +1,113 @@
+\documentclass{article}
+
+\usepackage[backend=biber,maxbibnames=99,bibstyle=alphabetic,language=auto,autolang=langname,sorting=ymdnt,]{biblatex}
+\usepackage{graphicx}
+\bibliography{my-bib}
+\usepackage{hyperref}
+
+\DeclareSortingTemplate{ymdnt}{
+  \sort{
+    \field{presort}
+  }
+  \sort[final]{
+    \field{sortkey}
+  }
+  \sort[direction=descending]{
+    \field[strside=left,strwidth=4]{sortyear}
+    \field[strside=left,strwidth=4]{year}
+    \literal{9999}
+  }
+  \sort[direction=descending]{
+    \field[padside=left,padwidth=2,padchar=0]{month}
+    \literal{00}
+  }
+  \sort[direction=descending]{
+    \field[padside=left,padwidth=2,padchar=0]{day}
+    \literal{00}
+  }
+  \sort{
+    \field{sortname}
+    \field{author}
+    \field{editor}
+    \field{translator}
+    \field{sorttitle}
+    \field{title}
+  }
+  \sort{
+    \field{sorttitle}
+    \field{title}
+  }
+}
+
+\ExecuteBibliographyOptions{doi=false,url=false}
+\newbibmacro{string+hyperlink}[1]{%
+  \iffieldundef{url}{%
+    \iffieldundef{doi}{#1}{\href{http://dx.doi.org/\thefield{doi}}{#1}}}
+    {\href{\thefield{url}}{#1}}}
+\DeclareFieldFormat*{title}{\usebibmacro{string+hyperlink}{#1}}
+
+\newbibmacro{usera}{%
+\iffieldundef{usera}{}{%
+\savefield*{usera}{\filename}%
+\usebibmacro{string+hyperlink}{\includegraphics[width=100pt]{\filename}}\\}%
+}
+\AtEveryBibitem{\usebibmacro{usera}}
+
+\AtEveryBibitem{\clearfield{note}\clearfield{addendum}}
+\AtEveryCitekey{\clearfield{note}\clearfield{addendum}}
+
+\defbibcheck{annoterefereed}{\iffieldequalstr{annotation}{refereed}{}{\skipentry}}
+\defbibcheck{annotenonrefereed}{\iffieldequalstr{annotation}{nonrefereed}{}{\skipentry}}
+
+\newbibmacro*{finalnamedelim:japanese}{\multinamedelim}
+
+\renewcommand*{\finalnamedelim}{%
+  \iffieldundef{langid}
+    {\ifnumgreater{\value{liststop}}{2}{\finalandcomma}{}%
+     \addspace\bibstring{and}\space}
+    {\usebibmacro*{finalnamedelim:\strfield{langid}}}}
+
+\newbibmacro*{name:given-family:japanese}[4]{%
+  \usebibmacro{name:delim}{#1#2}%
+  \usebibmacro{name:hook}{#1#2}%
+  #1\bibnamedelimc#2}
+
+\DeclareNameFormat{given-family}{%
+  \iffieldundef{langid}
+    {\ifgiveninits
+       {\usebibmacro{name:given-family}
+          {\namepartfamily}
+          {\namepartgiveni}
+          {\namepartprefix}
+          {\namepartsuffix}}
+       {\usebibmacro{name:given-family}
+          {\namepartfamily}
+          {\namepartgiven}
+          {\namepartprefix}
+          {\namepartsuffix}}}
+    {\usebibmacro*{name:given-family:\strfield{langid}}
+       {\namepartfamily}
+       {\namepartgiven}
+       {\namepartprefix}
+       {\namepartsuffix}}%
+  \usebibmacro{name:andothers}}
+
+\begin{document}
+\section*{My Academic Portfolio}
+\nocite{*}
+\printbibliography[heading={subbibliography},title={Articles
+  (Refereed)},type={article},check={annoterefereed}]
+
+\printbibliography[heading={subbibliography},title={Conference Proceedings
+  (Refereed)},type={inproceedings},check={annoterefereed}]
+
+\printbibliography[heading={subbibliography},title={Conference Proceedings
+  (Non-refereed)},type={inproceedings},check={annotenonrefereed}]
+
+\printbibliography[heading={subbibliography},title={Talks
+  (Refereed)},type={misc},check={annoterefereed}]
+
+\printbibliography[heading={subbibliography},title={Talks
+  (Non-refereed)},type={misc},check={annotenonrefereed}]
+
+\end{document}
