@@ -1,0 +1,15 @@
+\documentclass{ltjsarticle}
+
+\usepackage{luatexja,luatexja-preset}
+\usepackage{biblatex}
+\addbibresource{my-bib.bib}
+
+\defbibcheck{annoterefereed}{\iffieldequalstr{annotation}{refereed}{}{\skipentry}}
+\defbibcheck{annotenonrefereed}{\iffieldequalstr{annotation}{nonrefereed}{}{\skipentry}}
+\defbibcheck{annoteselected}{\iffieldequalstr{note}{selected}{}{\skipentry}}
+
+\begin{document}
+\printbibliography[heading={subbibliography},title={Journal},type=article,check=annoteselected]
+\printbibliography[heading={subbibliography},title={Conference Proceedings},type=inproceedings,check=annoteselected]
+\printbibliography[heading={subbibliography},title={Talk},type=misc,check=annoterefereed]
+\end{document}
