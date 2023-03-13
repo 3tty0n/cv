@@ -138,6 +138,18 @@ note = {Nonrefereed},
 abstract = {Meta-interpreter-based language implementation frameworks, such as RPython and Truffe/Graal, are convenient tool for implementing state-of-the-art virtual machines. Those frameworks are classified into trace-based and method- (or ast-) based strategies. RPython uses a trace-based policy to compile straight execution paths, while Truffe/Graal leverages method invocation to compile entire method bodies. Each approach has its own advantages and disadvantages. The trace-based strategy is good at compiling pro- grams with many branching possibilities and able to reduce the size of compiled code, but it is weak at programs with varying control-flow. The method-based strategy is robust with the latter type of programs but it needs thorough method-inlining management to achieve excellent performance. To take advantage of both strategies, we propose a meta-hybrid compilation technique to integrate trace- and method-based compilations, as well as a proof-of-concept implementation called BacCaml. To achieve this goal, we develop a stack hybridization mechanism which makes it possible to coordinate trace- and method-based meta JIT compilation. In the implementation, we extend RPython's architecture and introduced a special syntax for realizing this system in a single interpreter definition.},
 annote = {nonrefereed}
 }
+@misc{izawa2023morevms,
+author = {Yusuke Izawa AND Hidehiko Masuhara AND Carl Friedrich Bolz-Tereick},
+title = {Interpreter Taming to Realize Multiple Compilations in a Meta-Tracing JIT Compiler Framework},
+year = {2023},
+address = {Tokyo, Japan},
+howpublished = {The 7th MoreVMs workshop aims to bring together industrial and academic programmers to discuss the design, implementation, and usage of modern languages and runtimes. (MoreVMs'23)},
+series = {MoreVMs'23},
+date = {2023-03-13},
+note = {\textbf{Refereed}},
+url = {https://2023.programming-conference.org/home/MoreVMs-2023},
+annote = {refereed}
+}
 @misc{izawa2022icooolps,
 author = {Yusuke Izawa AND Hidehiko Masuhara},
 title = {Taming an Interpreter for Threaded Code Generation with a Tracing JIT Compiler},
