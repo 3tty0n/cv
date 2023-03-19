@@ -25,6 +25,7 @@ $(APP).pdf: $(APP).tex
 
 clean:
 	$(LATEXMK) -c $(APP)
+	$(RM) $(PORTFOLIO).html
 
 dist:
 	cp my-bib.bib ~/Dropbox/cv/my-bib.bib
