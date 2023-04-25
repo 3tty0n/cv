@@ -25,6 +25,14 @@
 
 \defbibcheck{annoterefereed}{\iffieldequalstr{annotation}{refereed}{}{\skipentry}}
 \defbibcheck{annotenonrefereed}{\iffieldequalstr{annotation}{nonrefereed}{}{\skipentry}}
+\defbibcheck{phdthesis}{%
+  \iffieldequalstr{type}{phdthesis}
+    {}
+    {\skipentry}}
+\defbibcheck{mastersthesis}{%
+  \iffieldequalstr{type}{mathesis}
+    {}
+    {\skipentry}}
 
 \newbibmacro*{finalnamedelim:japanese}{\multinamedelim}
 
@@ -77,4 +85,7 @@
 \printbibliography[heading={subbibliography},title={Talks
   (Non-refereed)},type={misc},check={annotenonrefereed}]
 
+\printbibliography[heading={subbibliography},title={Doctoral Thesis},check={phdthesis}]
+
+\printbibliography[heading={subbibliography},title={Masters Thesis},check={mastersthesis}]
 \end{document}
