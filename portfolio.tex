@@ -25,6 +25,7 @@
 
 \defbibcheck{annoterefereed}{\iffieldequalstr{annotation}{refereed}{}{\skipentry}}
 \defbibcheck{annotenonrefereed}{\iffieldequalstr{annotation}{nonrefereed}{}{\skipentry}}
+\defbibcheck{annotemisc}{\iffieldequalstr{annotation}{misc}{}{\skipentry}}
 \defbibcheck{phdthesis}{%
   \iffieldequalstr{type}{phdthesis}
     {}
@@ -88,4 +89,8 @@
 \printbibliography[heading={subbibliography},title={Doctoral Thesis},check={phdthesis}]
 
 \printbibliography[heading={subbibliography},title={Masters Thesis},check={mastersthesis}]
+
+\printbibliography[heading={subbibliography},title={Misc},
+  type={article},check={annotemisc}]
+
 \end{document}
