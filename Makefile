@@ -27,6 +27,9 @@ clean:
 	$(LATEXMK) -c $(APP)
 	$(RM) $(PORTFOLIO).html
 
+cleanportfolio:
+	$(RM) $(PORTFOLIO).html
+
 dist:
 	cp my-bib.bib ~/Dropbox/cv/my-bib.bib
 
