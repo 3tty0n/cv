@@ -5,7 +5,7 @@ LATEXMK = latexmk
 DATE := $(shell date)
 deploy: all
 	@cp $(APP).pdf docs
-	@cp $(PORTFOLIO).html docs
+	@cp $(PORTFOLIO).html $(PORTFOLIO).css docs
 	@git add -f docs/
 	@git commit -m "deploying at $(DATE)"
 	@git push
