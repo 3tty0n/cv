@@ -15,6 +15,8 @@ deploy: all
 
 all: $(PORTFOLIO).html $(APP).pdf
 
+$(PORTFOLIO): $(PORTFOLIO).html
+
 $(PORTFOLIO).html: $(PORTFOLIO).tex
 	make4ht -l -s $(basename $<) -c $(PORTFOLIO).cfg
 	biber $(basename $<)
@@ -27,7 +29,7 @@ clean:
 	$(LATEXMK) -c $(APP)
 	$(RM) $(PORTFOLIO).html
 
-cleanportfolio:
+clean-portfolio:
 	$(RM) $(PORTFOLIO).html
 
 dist:
