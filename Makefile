@@ -1,6 +1,7 @@
 APP = yizawa
 PORTFOLIO = portfolio
 LATEXMK = latexmk
+CSS = solarized.min.css
 
 DATE := $(shell date)
 deploy: all
@@ -13,7 +14,7 @@ deploy: all
 	@git commit -m "update at $(DATE)"
 	@git push
 
-all: $(PORTFOLIO).html $(APP).pdf
+all: $(PORTFOLIO).html css $(APP).pdf
 
 $(PORTFOLIO): $(PORTFOLIO).html
 
@@ -21,6 +22,9 @@ $(PORTFOLIO).html: $(PORTFOLIO).tex
 	make4ht -l -s $(basename $<) -c $(PORTFOLIO).cfg
 	biber $(basename $<)
 	make4ht -l -s $(basename $<) -c $(PORTFOLIO).cfg
+
+css:
+	cp $(CSS) docs
 
 $(APP).pdf: $(APP).tex
 	$(LATEXMK) $<
@@ -35,4 +39,4 @@ clean-portfolio:
 dist:
 	cp my-bib.bib ~/Dropbox/cv/my-bib.bib
 
-.PHONY: docs/$(APP).pdf $(APP).pdf deploy clean
+.PHONY: docs/$(APP).pdf $(APP).pdf css deploy clean
