@@ -18,7 +18,7 @@ all: $(PORTFOLIO).html css $(APP).pdf
 
 $(PORTFOLIO): $(PORTFOLIO).html
 
-$(PORTFOLIO).html: $(PORTFOLIO).tex
+$(PORTFOLIO).html: $(PORTFOLIO).tex $(PORTFOLIO).cfg my-bib.bib
 	make4ht -l -s $(basename $<) -c $(PORTFOLIO).cfg
 	biber $(basename $<)
 	make4ht -l -s $(basename $<) -c $(PORTFOLIO).cfg
