@@ -1,7 +1,7 @@
 APP = yizawa
 PORTFOLIO = portfolio
 LATEXMK = latexmk
-CSS = solarized.min.css
+CSS = solarized-light.min.css
 
 DATE := $(shell date)
 deploy: all
