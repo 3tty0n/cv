@@ -47,10 +47,11 @@ year   =	{2025},
 booktitle =	{39th European Conference on Object-Oriented Programming (ECOOP 2025)},
 series    =	{Leibniz International Proceedings in Informatics (LIPIcs)},
 year      =	{2025},
+page = {to appear},
 publisher =	{Schloss Dagstuhl -- Leibniz-Zentrum f{\"u}r Informatik},
 address   =	{Bergen, Norway},
 annote    =	{refereed},
-note      =	{to appear, selected},
+note      =	{selected},
 }
 @inproceedings{izawa2024apsec,
 author = {Yusuke Izawa AND Junichiro Kadomoto AND Hidetsugu Irie AND Shuichi Sakai},
@@ -92,7 +93,7 @@ eprint = {2201.09268},
 url = {https://popl22.sigplan.org/details/pepm-2022-papers/3/Two-level-Just-in-Time-Compilation-with-One-Interpreter-and-One-Engine},
 abstract = {Modern, powerful virtual machines such as those running Java or JavaScript support multi-tier JIT compilation and optimization features to achieve their high performance. However, implementing and maintaining several compilers/optimizers that interact with each other requires hard-working VM developers. In this paper, we propose a technique to realize two-level JIT compilation in RPython without implementing several interpreters or compilers from scratch. As a preliminary realization, we created adaptive RPython, which performs both baseline JIT compilation based on threaded code and tracing JIT compilation. We also implemented a small programming language with it. Furthermore, we preliminarily evaluated the performance of that small language, and our baseline JIT compilation ran 1.77x faster than the interpreter-only execution. Furthermore, we observed that when we apply an optimal JIT compilation for different target methods, the performance was mostly the same as the one optimizing JIT compilation strategy, saving about 40 \% of the compilation code size.},
 annote = {refereed},
-note = {selected}
+note = {}
 }
 @inproceedings{10.1145/3426422.3426977,
 author = {Izawa, Yusuke and Masuhara, Hidehiko},
@@ -147,7 +148,7 @@ keywords = {language implementation frameworks, tracing JIT compilation, RPython
 location = {Genova, Italy},
 series = {Programming 2019},
 annote = {refereed},
-note = {selected}
+note = {}
 }
 @inproceedings{10.1145/3328433.3328466,
 author = {Izawa, Yusuke},
@@ -167,7 +168,7 @@ note = {\textbf{Refereed}. \textbf{Awarded [*]}. 3 pages},
 location = {Genova, Italy},
 series = {Programming 2019},
 annote = {refereed},
-note = {selected}
+note = {}
 }
 @inproceedings{izawa2019jssst,
 organization = {{J}apan Society for Software Science and Technology ({JSSST})},
@@ -183,7 +184,6 @@ pages = {1--9},
 review = {false},
 keywords = {PyPy, BacCaml, MinCaml, RPython},
 url = {http://jssst.or.jp/files/user/taikai/2019/proceedings.html},
-note = {Nonrefereed},
 abstract = {Meta-interpreter-based language implementation frameworks, such as RPython and Truffe/Graal, are convenient tool for implementing state-of-the-art virtual machines. Those frameworks are classified into trace-based and method- (or ast-) based strategies. RPython uses a trace-based policy to compile straight execution paths, while Truffe/Graal leverages method invocation to compile entire method bodies. Each approach has its own advantages and disadvantages. The trace-based strategy is good at compiling pro- grams with many branching possibilities and able to reduce the size of compiled code, but it is weak at programs with varying control-flow. The method-based strategy is robust with the latter type of programs but it needs thorough method-inlining management to achieve excellent performance. To take advantage of both strategies, we propose a meta-hybrid compilation technique to integrate trace- and method-based compilations, as well as a proof-of-concept implementation called BacCaml. To achieve this goal, we develop a stack hybridization mechanism which makes it possible to coordinate trace- and method-based meta JIT compilation. In the implementation, we extend RPython's architecture and introduced a special syntax for realizing this system in a single interpreter definition.},
 annote = {nonrefereed}
 }
