@@ -1,0 +1,23 @@
+\documentclass[a4paper,skipsamekey,11pt,english]{article}
+
+\usepackage{ifluatex,ifxetex}
+
+\usepackage{fontspec}
+%% You can use \setmainfont etc; I'm just using these font packages here because they provide OpenType fonts for use by XeLaTeX/LuaLaTeX anyway
+\usepackage[p,osf,swashQ]{cochineal}
+\usepackage[medium,bold]{cabin}
+\usepackage[varqu,varl,scale=0.9]{zi4}
+
+\ifluatex
+\usepackage{luatexja}
+\usepackage{luatexja-preset}
+\fi
+
+\usepackage{biblatex}
+\addbibresource{my-bib.bib}
+
+\begin{document}
+
+\printbibliography
+
+\end{document}
