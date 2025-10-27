@@ -135,7 +135,7 @@ archivePrefix = {arXiv},
 eprint = {2201.09268},
 url = {https://popl22.sigplan.org/details/pepm-2022-papers/3/Two-level-Just-in-Time-Compilation-with-One-Interpreter-and-One-Engine},
 abstract = {Modern, powerful virtual machines such as those running Java or JavaScript support multi-tier JIT compilation and optimization features to achieve their high performance. However, implementing and maintaining several compilers/optimizers that interact with each other requires hard-working VM developers. In this paper, we propose a technique to realize two-level JIT compilation in RPython without implementing several interpreters or compilers from scratch. As a preliminary realization, we created adaptive RPython, which performs both baseline JIT compilation based on threaded code and tracing JIT compilation. We also implemented a small programming language with it. Furthermore, we preliminarily evaluated the performance of that small language, and our baseline JIT compilation ran 1.77x faster than the interpreter-only execution. Furthermore, we observed that when we apply an optimal JIT compilation for different target methods, the performance was mostly the same as the one optimizing JIT compilation strategy, saving about 40 \% of the compilation code size.},
-annote = {refereed},
+annote = {},
 note = {}
 }
 @inproceedings{10.1145/3426422.3426977,
@@ -241,6 +241,16 @@ annote = {nonrefereed}
   doi={10.18974/jvrsj.28.2_23},
   annote={misc},
   language={japanese},
+}
+@proceedings{10.1145/3759548,
+title = {VMIL '25: Proceedings of the 17th ACM SIGPLAN International Workshop on Virtual Machines and Intermediate Languages},
+author = {Stefan Marr AND Yusuke Izawa},
+year = {2025},
+isbn = {9798400721649},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+abstract = {Welcome to the 17th ACM SIGPLAN International Workshop on Virtual Machines and Intermediate Languages (VMIL 2025). VMIL aims to advance the state of the art in the design and implementation of programming systems, with a particular focus on virtual machines—broadly defined. Co-located with ICFP/SPLASH’25, the workshop took place in Singapore on October 15, 2025. The workshop featured two submission deadlines: the first for mature research and work-in-progress papers included in the proceedings, and the second for position papers, experience reports, new ideas, and emerging results. VMIL received twelve submissions this year: eight full-length research papers, one work-in-progress paper, and three position papers. An accomplished Program Committee evaluated submissions based on novelty, relevance, and contribution to the state of the art. Each research and work-in-progress paper received at least three reviews. In total, eight papers were accepted—four research papers, three work-in-progress papers, and one position paper for presentation. Accepted research and work-in-progress papers are also published in the ACM Digital Library. Submissions spanned a wide range of topics, including ahead-of-time and just-in-time compilation, interpreters, intermediate representations, developer tooling, and memory management. Anil Madhavapeddy delivered the keynote on post-POSIX IO interfaces. We thank the authors for their submissions, the Program Committee for their high-quality reviews, and all attendees for their participation. Yusuke Izawa, Shoaib Akram September 2025 VMIL Program Co-Chairs},
+location = {Singapore, Singapore}
 }
 @misc{izawa2025-u-twente,
 author = {Yusuke Izawa},
