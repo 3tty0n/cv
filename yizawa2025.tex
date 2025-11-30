@@ -1,0 +1,118 @@
+\documentclass[a4paper,skipsamekey,11pt,english]{curve}
+
+% Uncomment to enable Chinese; needs XeLaTeX
+% \usepackage{ctex}
+
+\usepackage{settings}
+\usepackage{hyperref}
+
+% Change the fonts if you want
+\ifxetexorluatex % If you're using XeLaTeX or LuaLaTeX
+  \usepackage{fontspec}
+  %% You can use \setmainfont etc; I'm just using these font packages here because they provide OpenType fonts for use by XeLaTeX/LuaLaTeX anyway
+  \usepackage[p,osf,swashQ]{cochineal}
+  \usepackage[medium,bold]{cabin}
+  \usepackage[varqu,varl,scale=0.9]{zi4}
+  \urlstyle{rm}
+\else % If you're using pdfLaTeX or latex
+
+  \usepackage[T1]{fontenc}
+  \usepackage[p,osf,swashQ]{cochineal}
+  \usepackage{cabin}
+  \usepackage[varqu,varl,scale=0.9]{zi4}
+\fi
+
+\ifluatex
+\usepackage{luatexja}
+\usepackage{luatexja-preset}
+\fi
+
+\ifxetex
+\usepackage{xeCJK}
+\setCJKmainfont[BoldFont=NotoSerifCJKjp-Black]{NotoSerifCJKjp-Light}
+\setCJKsansfont[BoldFont=NotoSansCJKjp-Black]{NotoSansCJKjp-Light}
+\setCJKmonofont[BoldFont=NotoSansCJKjp-Black]{NotoSansCJKjp-Light}
+\fi
+
+\defbibcheck{annoterefereed}{\iffieldequalstr{annotation}{refereed}{}{\skipentry}}
+\defbibcheck{annotenonrefereed}{\iffieldequalstr{annotation}{nonrefereed}{}{\skipentry}}
+\defbibcheck{annoteselected}{\iffieldequalstr{note}{selected}{}{\skipentry}}
+
+\AtEveryBibitem{\clearfield{note}}
+
+%% Only needed if you want a Publication List
+\addbibresource{my-bib.bib}
+
+%% Specify your last name and first name (as given in the .bib) to automatically bold your own name in the publications list. One caveat: You need to write \bibnamedelima where there's a space in your name for this to work properly for now...
+\myname{Yu}{Yusuke\bibnamedelima Izawa}
+% \myname{d'Andrimont}{Raphaël}
+
+% Change the page margins if you want
+\geometry{left=1.5cm,right=1.5cm,top=2cm,bottom=2cm}
+% Change the colours if you want
+% \definecolor{SwishLineColour}{HTML}{00FFFF}
+% \definecolor{MarkerColour}{HTML}{0000CC}
+
+% Change the item prefix marker if you want
+% \prefixmarker{$\diamond$}
+
+%% Photo is only shown if "fullonly" is included
+\includecomment{fullonly}
+% \excludecomment{fullonly}
+
+\newcommand{\jit}{JIT}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\leftheader{%
+  {\LARGE\bfseries\sffamily Yusuke Izawa, Assistant Professor in Computer Science}
+
+  \makefield{\faEnvelope}{\href{mailto:me@yizawa.com}{me@yizawa.com}}
+  % \makefield{\faTwitter}{\texttt{\href{https://twitter.com/yusuke_izawa}{@yusuke\_izawa}}}
+
+  \makefield{\faGlobe}{\url{https://me.yizawa.tokyo}}
+
+  \makefield{\faHome}{〒191-0065. 6 Chome-6, Asahigaoka, Hino, Tokyo , Japan.}
+
+  % \makefield{\faLinkedin}
+  % {\url{http://www.linkedin.com/in/example/}}
+}
+
+\rightheader{~}
+\begin{fullonly}
+%\photo[r]{photo}
+%\photoscale{0.13}
+\end{fullonly}
+
+\title{Curriculum Vitae}
+
+\begin{document}
+\makeheaders[c]
+
+\makerubric{interest}
+\makerubric{education}
+\makerubric{employment}
+\makerubric{scholarships}
+
+% If you're not a researcher nor an academic, you probably don't have any publications; delete this line.
+%% Sometimes when a section can't be nicely modelled with the \entry[]... mechanism; hack our own and use \input NOT \makerubric
+
+%\makerubric{projects}
+
+\makerubric{servicesfull}
+%\makerubric{teaching}
+
+\nocite{*}
+\makerubrichead{Publications (Refereed)}
+
+\printbibliography[heading={subbibliography},title={Journal},type=article,check=annoteselected]
+\printbibliography[heading={subbibliography},title={Conference Proceedings},type=inproceedings]
+
+\makerubric{oss}
+\makerubric{teaching}
+\makerubric{supervision}
+\makerubric{skills}
+
+\end{document}
