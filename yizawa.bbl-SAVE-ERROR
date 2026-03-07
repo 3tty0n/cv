@@ -1,0 +1,1927 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{ymdnt/global//global/global/global}
+    \entry{izawa2025-u-twente}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=7f6dd2b57697d15613277e1284a6988c}{%
+           family={Izawa},
+           familyi={I\bibinitperiod},
+           given={Yusuke},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{7f6dd2b57697d15613277e1284a6988c}
+      \strng{fullhash}{7f6dd2b57697d15613277e1284a6988c}
+      \strng{fullhashraw}{7f6dd2b57697d15613277e1284a6988c}
+      \strng{bibnamehash}{7f6dd2b57697d15613277e1284a6988c}
+      \strng{authorbibnamehash}{7f6dd2b57697d15613277e1284a6988c}
+      \strng{authornamehash}{7f6dd2b57697d15613277e1284a6988c}
+      \strng{authorfullhash}{7f6dd2b57697d15613277e1284a6988c}
+      \strng{authorfullhashraw}{7f6dd2b57697d15613277e1284a6988c}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{refereed}
+      \field{howpublished}{University of Twente Colloquium}
+      \field{month}{9}
+      \field{title}{A Lightweight Approach to Multi-Tier JIT Compiler VM in a Meta-Tracing Compiler Framework}
+      \field{year}{2025}
+      \true{nocite}
+    \endentry
+    \entry{izawa2025-hpi}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=7f6dd2b57697d15613277e1284a6988c}{%
+           family={Izawa},
+           familyi={I\bibinitperiod},
+           given={Yusuke},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{7f6dd2b57697d15613277e1284a6988c}
+      \strng{fullhash}{7f6dd2b57697d15613277e1284a6988c}
+      \strng{fullhashraw}{7f6dd2b57697d15613277e1284a6988c}
+      \strng{bibnamehash}{7f6dd2b57697d15613277e1284a6988c}
+      \strng{authorbibnamehash}{7f6dd2b57697d15613277e1284a6988c}
+      \strng{authornamehash}{7f6dd2b57697d15613277e1284a6988c}
+      \strng{authorfullhash}{7f6dd2b57697d15613277e1284a6988c}
+      \strng{authorfullhashraw}{7f6dd2b57697d15613277e1284a6988c}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{refereed}
+      \field{howpublished}{Systems Design Research Meeting, Hasso-Plattner-Institute}
+      \field{month}{7}
+      \field{title}{A Lightweight Method for Generating Multi-Tier JIT Compilation Virtual Machine in a Meta-Tracing Compiler Framework (Extended Version of ECOOP 2025)}
+      \field{year}{2025}
+      \true{nocite}
+    \endentry
+    \entry{izawa2025pro-invited}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=4f0964d20c08b813a122a1ba632ec5a7}{%
+           family={伊澤},
+           familyi={伊\bibinitperiod},
+           given={侑祐},
+           giveni={侑\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {japanese}%
+      }
+      \strng{namehash}{4f0964d20c08b813a122a1ba632ec5a7}
+      \strng{fullhash}{4f0964d20c08b813a122a1ba632ec5a7}
+      \strng{fullhashraw}{4f0964d20c08b813a122a1ba632ec5a7}
+      \strng{bibnamehash}{4f0964d20c08b813a122a1ba632ec5a7}
+      \strng{authorbibnamehash}{4f0964d20c08b813a122a1ba632ec5a7}
+      \strng{authornamehash}{4f0964d20c08b813a122a1ba632ec5a7}
+      \strng{authorfullhash}{4f0964d20c08b813a122a1ba632ec5a7}
+      \strng{authorfullhashraw}{4f0964d20c08b813a122a1ba632ec5a7}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{refereed}
+      \field{howpublished}{第153回プログラミング研究発表会}
+      \field{month}{3}
+      \field{note}{\textbf{Invited Talk}}
+      \field{title}{Meta-Tracing JIT コンパイラの可能性: コンパイル方式の融合と多層JITコン パイラの生成 (若手研究者招待講演)}
+      \field{year}{2025}
+      \true{nocite}
+    \endentry
+    \entry{izawa2025uist}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{hash=7f6dd2b57697d15613277e1284a6988c}{%
+           family={Izawa},
+           familyi={I\bibinitperiod},
+           given={Yusuke},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=20c264be4b0f35a7023e3144700b2112}{%
+           family={Kadomoto},
+           familyi={K\bibinitperiod},
+           given={Junichiro},
+           giveni={J\bibinitperiod}}}%
+        {{hash=e043de67c84d184b0819c455dce9027a}{%
+           family={Irie},
+           familyi={I\bibinitperiod},
+           given={Hidetsugu},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Busan, Korea}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{ac12eecbf86f0be0ab208a6f2230fe4d}
+      \strng{fullhash}{ac12eecbf86f0be0ab208a6f2230fe4d}
+      \strng{fullhashraw}{ac12eecbf86f0be0ab208a6f2230fe4d}
+      \strng{bibnamehash}{ac12eecbf86f0be0ab208a6f2230fe4d}
+      \strng{authorbibnamehash}{ac12eecbf86f0be0ab208a6f2230fe4d}
+      \strng{authornamehash}{ac12eecbf86f0be0ab208a6f2230fe4d}
+      \strng{authorfullhash}{ac12eecbf86f0be0ab208a6f2230fe4d}
+      \strng{authorfullhashraw}{ac12eecbf86f0be0ab208a6f2230fe4d}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We present VisMorph, a live programming environment for shape-adaptive computers---systems composed of microscopic units that wirelessly coordinate to change shape and function. VisMorph supports intuitive application development for such systems through real-time visualization, interactive feedback, and a declarative programming language called MorphLang. It allows users to define physical layouts, specify behaviors, and visualize communication on a 2D grid, making development more intuitive and efficient. VisMorph streamlines the process of programming dynamic, reconfigurable interfaces, enabling advanced workflows for shape-changing systems.}
+      \field{annotation}{refereed}
+      \field{booktitle}{Adjunct Proceedings of the 38th Annual ACM Symposium on User Interface Software and Technology}
+      \field{isbn}{9798400720369}
+      \field{note}{selected}
+      \field{series}{UIST Adjunct '25}
+      \field{title}{VisMorph: A Live Programming Environment for Shape-Adaptive Computers}
+      \field{year}{2025}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.1145/3746058.3758364
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1145/3746058.3758364
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1145/3746058.3758364
+      \endverb
+      \keyw{Live programming environment,shape-adaptive computer,shape-changing interface}
+    \endentry
+    \entry{izawa_et_al:LIPIcs.ECOOP.2025.16}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{hash=7f6dd2b57697d15613277e1284a6988c}{%
+           family={Izawa},
+           familyi={I\bibinitperiod},
+           given={Yusuke},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=424533e9cd60e97301efe2081672b51e}{%
+           family={Masuhara},
+           familyi={M\bibinitperiod},
+           given={Hidehiko},
+           giveni={H\bibinitperiod}}}%
+        {{hash=fadcdf4ae8395969d6f659ec4825996f}{%
+           family={Bolz-Tereick},
+           familyi={B\bibinithyphendelim T\bibinitperiod},
+           given={Carl\bibnamedelima Friedrich},
+           giveni={C\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=0d07eaf3b5b1e4de2605019d4f388fae}{%
+           family={Aldrich},
+           familyi={A\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=8b75accb7828bac3d5aa4bb89fbd6ff0}{%
+           family={Silva},
+           familyi={S\bibinitperiod},
+           given={Alexandra},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Dagstuhl, Germany}%
+      }
+      \list{publisher}{1}{%
+        {Schloss Dagstuhl -- Leibniz-Zentrum f\"{u}r Informatik}%
+      }
+      \strng{namehash}{fa342e651b69ba6c6afdc936f8f208cd}
+      \strng{fullhash}{fa342e651b69ba6c6afdc936f8f208cd}
+      \strng{fullhashraw}{fa342e651b69ba6c6afdc936f8f208cd}
+      \strng{bibnamehash}{fa342e651b69ba6c6afdc936f8f208cd}
+      \strng{authorbibnamehash}{fa342e651b69ba6c6afdc936f8f208cd}
+      \strng{authornamehash}{fa342e651b69ba6c6afdc936f8f208cd}
+      \strng{authorfullhash}{fa342e651b69ba6c6afdc936f8f208cd}
+      \strng{authorfullhashraw}{fa342e651b69ba6c6afdc936f8f208cd}
+      \strng{editorbibnamehash}{357a84555c1bac645a7c4c80da2d2182}
+      \strng{editornamehash}{357a84555c1bac645a7c4c80da2d2182}
+      \strng{editorfullhash}{357a84555c1bac645a7c4c80da2d2182}
+      \strng{editorfullhashraw}{357a84555c1bac645a7c4c80da2d2182}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{refereed}
+      \field{booktitle}{39th European Conference on Object-Oriented Programming (ECOOP 2025)}
+      \field{eprinttype}{arXiv}
+      \field{isbn}{978-3-95977-373-7}
+      \field{issn}{1868-8969}
+      \field{note}{selected}
+      \field{series}{Leibniz International Proceedings in Informatics (LIPIcs)}
+      \field{title}{{A Lightweight Method for Generating Multi-Tier JIT Compilation Virtual Machine in a Meta-Tracing Compiler Framework}}
+      \field{volume}{333}
+      \field{year}{2025}
+      \true{nocite}
+      \field{pages}{16:1\bibrangedash 16:29}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.4230/LIPIcs.ECOOP.2025.16
+      \endverb
+      \verb{eprint}
+      \verb http://arxiv.org/abs/2504.17460
+      \endverb
+      \verb{urlraw}
+      \verb https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ECOOP.2025.16
+      \endverb
+      \verb{url}
+      \verb https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ECOOP.2025.16
+      \endverb
+    \endentry
+    \entry{izawa_et_al:DARTS.11.2.16}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=7f6dd2b57697d15613277e1284a6988c}{%
+           family={Izawa},
+           familyi={I\bibinitperiod},
+           given={Yusuke},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=424533e9cd60e97301efe2081672b51e}{%
+           family={Masuhara},
+           familyi={M\bibinitperiod},
+           given={Hidehiko},
+           giveni={H\bibinitperiod}}}%
+        {{hash=fadcdf4ae8395969d6f659ec4825996f}{%
+           family={Bolz-Tereick},
+           familyi={B\bibinithyphendelim T\bibinitperiod},
+           given={Carl\bibnamedelima Friedrich},
+           giveni={C\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Dagstuhl, Germany}%
+      }
+      \list{publisher}{1}{%
+        {Schloss Dagstuhl -- Leibniz-Zentrum f\"{u}r Informatik}%
+      }
+      \strng{namehash}{fa342e651b69ba6c6afdc936f8f208cd}
+      \strng{fullhash}{fa342e651b69ba6c6afdc936f8f208cd}
+      \strng{fullhashraw}{fa342e651b69ba6c6afdc936f8f208cd}
+      \strng{bibnamehash}{fa342e651b69ba6c6afdc936f8f208cd}
+      \strng{authorbibnamehash}{fa342e651b69ba6c6afdc936f8f208cd}
+      \strng{authornamehash}{fa342e651b69ba6c6afdc936f8f208cd}
+      \strng{authorfullhash}{fa342e651b69ba6c6afdc936f8f208cd}
+      \strng{authorfullhashraw}{fa342e651b69ba6c6afdc936f8f208cd}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{refereed}
+      \field{issn}{2509-8195}
+      \field{journaltitle}{Dagstuhl Artifacts Series}
+      \field{note}{selected}
+      \field{number}{2}
+      \field{title}{{A Lightweight Method for Generating Multi-Tier JIT Compilation Virtual Machine in a Meta-Tracing Compiler Framework (Artifact)}}
+      \field{volume}{11}
+      \field{year}{2025}
+      \true{nocite}
+      \field{pages}{16:1\bibrangedash 16:4}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.4230/DARTS.11.2.16
+      \endverb
+      \verb{urlraw}
+      \verb https://drops.dagstuhl.de/entities/document/10.4230/DARTS.11.2.16
+      \endverb
+      \verb{url}
+      \verb https://drops.dagstuhl.de/entities/document/10.4230/DARTS.11.2.16
+      \endverb
+    \endentry
+    \entry{10.1145/3759548}{misc}{}{}
+      \name{author}{2}{}{%
+        {{hash=a237e75bcb4b8cbac6c3d7a74ba3d16a}{%
+           family={Marr},
+           familyi={M\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=7f6dd2b57697d15613277e1284a6988c}{%
+           family={Izawa},
+           familyi={I\bibinitperiod},
+           given={Yusuke},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Singapore, Singapore}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{7e9e962191e55b090b6d090053061d85}
+      \strng{fullhash}{7e9e962191e55b090b6d090053061d85}
+      \strng{fullhashraw}{7e9e962191e55b090b6d090053061d85}
+      \strng{bibnamehash}{7e9e962191e55b090b6d090053061d85}
+      \strng{authorbibnamehash}{7e9e962191e55b090b6d090053061d85}
+      \strng{authornamehash}{7e9e962191e55b090b6d090053061d85}
+      \strng{authorfullhash}{7e9e962191e55b090b6d090053061d85}
+      \strng{authorfullhashraw}{7e9e962191e55b090b6d090053061d85}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Welcome to the 17th ACM SIGPLAN International Workshop on Virtual Machines and Intermediate Languages (VMIL 2025). VMIL aims to advance the state of the art in the design and implementation of programming systems, with a particular focus on virtual machines---broadly defined. Co-located with ICFP/SPLASH\textquoteright{}25, the workshop took place in Singapore on October 15, 2025. The workshop featured two submission deadlines: the first for mature research and work-in-progress papers included in the proceedings, and the second for position papers, experience reports, new ideas, and emerging results. VMIL received twelve submissions this year: eight full-length research papers, one work-in-progress paper, and three position papers. An accomplished Program Committee evaluated submissions based on novelty, relevance, and contribution to the state of the art. Each research and work-in-progress paper received at least three reviews. In total, eight papers were accepted---four research papers, three work-in-progress papers, and one position paper for presentation. Accepted research and work-in-progress papers are also published in the ACM Digital Library. Submissions spanned a wide range of topics, including ahead-of-time and just-in-time compilation, interpreters, intermediate representations, developer tooling, and memory management. Anil Madhavapeddy delivered the keynote on post-POSIX IO interfaces. We thank the authors for their submissions, the Program Committee for their high-quality reviews, and all attendees for their participation. Yusuke Izawa, Shoaib Akram September 2025 VMIL Program Co-Chairs}
+      \field{isbn}{9798400721649}
+      \field{title}{VMIL '25: Proceedings of the 17th ACM SIGPLAN International Workshop on Virtual Machines and Intermediate Languages}
+      \field{year}{2025}
+      \true{nocite}
+    \endentry
+    \entry{izawa2024act-x-2}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=4f0964d20c08b813a122a1ba632ec5a7}{%
+           family={伊澤},
+           familyi={伊\bibinitperiod},
+           given={侑祐},
+           giveni={侑\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {japanese}%
+      }
+      \strng{namehash}{4f0964d20c08b813a122a1ba632ec5a7}
+      \strng{fullhash}{4f0964d20c08b813a122a1ba632ec5a7}
+      \strng{fullhashraw}{4f0964d20c08b813a122a1ba632ec5a7}
+      \strng{bibnamehash}{4f0964d20c08b813a122a1ba632ec5a7}
+      \strng{authorbibnamehash}{4f0964d20c08b813a122a1ba632ec5a7}
+      \strng{authornamehash}{4f0964d20c08b813a122a1ba632ec5a7}
+      \strng{authorfullhash}{4f0964d20c08b813a122a1ba632ec5a7}
+      \strng{authorfullhashraw}{4f0964d20c08b813a122a1ba632ec5a7}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{nonrefereed}
+      \field{howpublished}{JST ACT-X 第2回成果報告回}
+      \field{month}{4}
+      \field{note}{Poster Presentation}
+      \field{title}{汎用性と高性能を両立するハイブリッド型実行時コンパイラ}
+      \field{year}{2024}
+      \true{nocite}
+    \endentry
+    \entry{izawa2024apsec}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{hash=7f6dd2b57697d15613277e1284a6988c}{%
+           family={Izawa},
+           familyi={I\bibinitperiod},
+           given={Yusuke},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=20c264be4b0f35a7023e3144700b2112}{%
+           family={Kadomoto},
+           familyi={K\bibinitperiod},
+           given={Junichiro},
+           giveni={J\bibinitperiod}}}%
+        {{hash=e043de67c84d184b0819c455dce9027a}{%
+           family={Irie},
+           familyi={I\bibinitperiod},
+           given={Hidetsugu},
+           giveni={H\bibinitperiod}}}%
+        {{hash=c2f6cddbd3acb1899104920a03699a9e}{%
+           family={Sakai},
+           familyi={S\bibinitperiod},
+           given={Shuichi},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{3920ba4518cb581d6766a3ff24d55b6a}
+      \strng{fullhash}{a4a8322f1c8a7dee5f45a84bac1cc249}
+      \strng{fullhashraw}{a4a8322f1c8a7dee5f45a84bac1cc249}
+      \strng{bibnamehash}{a4a8322f1c8a7dee5f45a84bac1cc249}
+      \strng{authorbibnamehash}{a4a8322f1c8a7dee5f45a84bac1cc249}
+      \strng{authornamehash}{3920ba4518cb581d6766a3ff24d55b6a}
+      \strng{authorfullhash}{a4a8322f1c8a7dee5f45a84bac1cc249}
+      \strng{authorfullhashraw}{a4a8322f1c8a7dee5f45a84bac1cc249}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{refereed}
+      \field{booktitle}{2024 31st Asia-Pacific Software Engineering Conference (APSEC)}
+      \field{title}{Designing a Reactive Programming Language for Shape-Adaptive Computers}
+      \field{year}{2024}
+      \true{nocite}
+      \field{pages}{452\bibrangedash 456}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/APSEC65559.2024.00058
+      \endverb
+      \keyw{Computers;Computer languages;Program processors;Shape;Focusing;Hardware;Complexity theory;Optimization;Software development management;Programming environments;Shape-Adaptive Computer;Compiler for a Specific Hardware;Reactive Programming Language}
+    \endentry
+    \entry{izawa2023splashposter}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{hash=7f6dd2b57697d15613277e1284a6988c}{%
+           family={Izawa},
+           familyi={I\bibinitperiod},
+           given={Yusuke},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=20c264be4b0f35a7023e3144700b2112}{%
+           family={Kadomoto},
+           familyi={K\bibinitperiod},
+           given={Junichiro},
+           giveni={J\bibinitperiod}}}%
+        {{hash=e043de67c84d184b0819c455dce9027a}{%
+           family={Irie},
+           familyi={I\bibinitperiod},
+           given={Hidetsugu},
+           giveni={H\bibinitperiod}}}%
+        {{hash=c2f6cddbd3acb1899104920a03699a9e}{%
+           family={Sakai},
+           familyi={S\bibinitperiod},
+           given={Shuichi},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cascais, Portugal}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{3920ba4518cb581d6766a3ff24d55b6a}
+      \strng{fullhash}{a4a8322f1c8a7dee5f45a84bac1cc249}
+      \strng{fullhashraw}{a4a8322f1c8a7dee5f45a84bac1cc249}
+      \strng{bibnamehash}{a4a8322f1c8a7dee5f45a84bac1cc249}
+      \strng{authorbibnamehash}{a4a8322f1c8a7dee5f45a84bac1cc249}
+      \strng{authornamehash}{3920ba4518cb581d6766a3ff24d55b6a}
+      \strng{authorfullhash}{a4a8322f1c8a7dee5f45a84bac1cc249}
+      \strng{authorfullhashraw}{a4a8322f1c8a7dee5f45a84bac1cc249}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{refereed}
+      \field{day}{30}
+      \field{isbn}{979-8-4007-0384-3/23/10}
+      \field{month}{8}
+      \field{series}{SPLASH Companion 2023}
+      \field{title}{A Functional Reactive Programming Language for Wirelessly Connected Shape-Changeable Chiplet-Based Computers}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.1145/3618305.3623608
+      \endverb
+    \endentry
+    \entry{izawa2023pro}{misc}{}{}
+      \name{author}{5}{}{%
+        {{hash=4f0964d20c08b813a122a1ba632ec5a7}{%
+           family={伊澤},
+           familyi={伊\bibinitperiod},
+           given={侑祐},
+           giveni={侑\bibinitperiod}}}%
+        {{hash=4a59e3767c37fb756bb16d90da702619}{%
+           family={倫大},
+           familyi={倫\bibinitperiod},
+           given={堀江},
+           giveni={堀\bibinitperiod}}}%
+        {{hash=15e9aa2a6319fc713f99e8faaaf39e25}{%
+           family={一則},
+           familyi={一\bibinitperiod},
+           given={緒方},
+           giveni={緒\bibinitperiod}}}%
+        {{hash=9891e13fc67683000bdf49d5da1c39d1}{%
+           family={スコット},
+           familyi={ス\bibinitperiod},
+           given={トレント},
+           giveni={ト\bibinitperiod}}}%
+        {{hash=a9c01888c312acb434b551dfa7334a3c}{%
+           family={立寛},
+           familyi={立\bibinitperiod},
+           given={千葉},
+           giveni={千\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {japanese}%
+      }
+      \list{location}{1}{%
+        {函館, 日本}%
+      }
+      \strng{namehash}{45cebbb7d8fad85703f7a812de6f7012}
+      \strng{fullhash}{c6ecd5377d05d09e8429a4039c12edef}
+      \strng{fullhashraw}{c6ecd5377d05d09e8429a4039c12edef}
+      \strng{bibnamehash}{c6ecd5377d05d09e8429a4039c12edef}
+      \strng{authorbibnamehash}{c6ecd5377d05d09e8429a4039c12edef}
+      \strng{authornamehash}{45cebbb7d8fad85703f7a812de6f7012}
+      \strng{authorfullhash}{c6ecd5377d05d09e8429a4039c12edef}
+      \strng{authorfullhashraw}{c6ecd5377d05d09e8429a4039c12edef}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{nonrefereed}
+      \field{day}{3}
+      \field{howpublished}{情報処理学会プログラミング研究会 -- 第145回プログラミング研究発表会}
+      \field{month}{8}
+      \field{title}{マルチデバイス・クラウドシステムの実現に向けたCPU用コミュニケーションライブラリの活用}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://sigpro.ipsj.or.jp/pro2023-2/program/
+      \endverb
+      \verb{url}
+      \verb https://sigpro.ipsj.or.jp/pro2023-2/program/
+      \endverb
+    \endentry
+    \entry{izawa2023morevms}{misc}{}{}
+      \name{author}{3}{}{%
+        {{hash=7f6dd2b57697d15613277e1284a6988c}{%
+           family={Izawa},
+           familyi={I\bibinitperiod},
+           given={Yusuke},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=424533e9cd60e97301efe2081672b51e}{%
+           family={Masuhara},
+           familyi={M\bibinitperiod},
+           given={Hidehiko},
+           giveni={H\bibinitperiod}}}%
+        {{hash=fadcdf4ae8395969d6f659ec4825996f}{%
+           family={Bolz-Tereick},
+           familyi={B\bibinithyphendelim T\bibinitperiod},
+           given={Carl\bibnamedelima Friedrich},
+           giveni={C\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Tokyo, Japan}%
+      }
+      \strng{namehash}{fa342e651b69ba6c6afdc936f8f208cd}
+      \strng{fullhash}{fa342e651b69ba6c6afdc936f8f208cd}
+      \strng{fullhashraw}{fa342e651b69ba6c6afdc936f8f208cd}
+      \strng{bibnamehash}{fa342e651b69ba6c6afdc936f8f208cd}
+      \strng{authorbibnamehash}{fa342e651b69ba6c6afdc936f8f208cd}
+      \strng{authornamehash}{fa342e651b69ba6c6afdc936f8f208cd}
+      \strng{authorfullhash}{fa342e651b69ba6c6afdc936f8f208cd}
+      \strng{authorfullhashraw}{fa342e651b69ba6c6afdc936f8f208cd}
+      \field{extraname}{3}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{refereed}
+      \field{day}{13}
+      \field{howpublished}{The 7th MoreVMs workshop (MoreVMs'23)}
+      \field{month}{3}
+      \field{note}{\textbf{Refereed}}
+      \field{series}{MoreVMs'23}
+      \field{title}{Interpreter Taming to Realize Multiple Compilations in a Meta-Tracing JIT Compiler Framework}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://2023.programming-conference.org/home/MoreVMs-2023
+      \endverb
+      \verb{url}
+      \verb https://2023.programming-conference.org/home/MoreVMs-2023
+      \endverb
+    \endentry
+    \entry{izawa2023phd}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{hash=7f6dd2b57697d15613277e1284a6988c}{%
+           family={Izawa},
+           familyi={I\bibinitperiod},
+           given={Yusuke},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Tokyo Institute of Technology}%
+      }
+      \strng{namehash}{7f6dd2b57697d15613277e1284a6988c}
+      \strng{fullhash}{7f6dd2b57697d15613277e1284a6988c}
+      \strng{fullhashraw}{7f6dd2b57697d15613277e1284a6988c}
+      \strng{bibnamehash}{7f6dd2b57697d15613277e1284a6988c}
+      \strng{authorbibnamehash}{7f6dd2b57697d15613277e1284a6988c}
+      \strng{authornamehash}{7f6dd2b57697d15613277e1284a6988c}
+      \strng{authorfullhash}{7f6dd2b57697d15613277e1284a6988c}
+      \strng{authorfullhashraw}{7f6dd2b57697d15613277e1284a6988c}
+      \field{extraname}{3}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Supporting multi-scope and multi-level compilation in a meta-tracing just-in-time compiler}
+      \field{type}{phdthesis}
+      \field{year}{2023}
+      \true{nocite}
+    \endentry
+    \entry{伊澤侑祐2023}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=4f0964d20c08b813a122a1ba632ec5a7}{%
+           family={伊澤},
+           familyi={伊\bibinitperiod},
+           given={侑祐},
+           giveni={侑\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {japanese}%
+      }
+      \strng{namehash}{4f0964d20c08b813a122a1ba632ec5a7}
+      \strng{fullhash}{4f0964d20c08b813a122a1ba632ec5a7}
+      \strng{fullhashraw}{4f0964d20c08b813a122a1ba632ec5a7}
+      \strng{bibnamehash}{4f0964d20c08b813a122a1ba632ec5a7}
+      \strng{authorbibnamehash}{4f0964d20c08b813a122a1ba632ec5a7}
+      \strng{authornamehash}{4f0964d20c08b813a122a1ba632ec5a7}
+      \strng{authorfullhash}{4f0964d20c08b813a122a1ba632ec5a7}
+      \strng{authorfullhashraw}{4f0964d20c08b813a122a1ba632ec5a7}
+      \field{extraname}{3}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{misc}
+      \field{journaltitle}{日本バーチャルリアリティ学会誌}
+      \field{number}{2}
+      \field{title}{何者かになるということ}
+      \field{volume}{28}
+      \field{year}{2023}
+      \true{nocite}
+      \field{pages}{23\bibrangedash 24}
+      \range{pages}{2}
+      \verb{doi}
+      \verb 10.18974/jvrsj.28.2_23
+      \endverb
+    \endentry
+    \entry{izawa2022icooolps}{misc}{}{}
+      \name{author}{2}{}{%
+        {{hash=7f6dd2b57697d15613277e1284a6988c}{%
+           family={Izawa},
+           familyi={I\bibinitperiod},
+           given={Yusuke},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=424533e9cd60e97301efe2081672b51e}{%
+           family={Masuhara},
+           familyi={M\bibinitperiod},
+           given={Hidehiko},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin, Germany}%
+      }
+      \strng{namehash}{85410a34eb0651e1a3d5b5f17dcc9efc}
+      \strng{fullhash}{85410a34eb0651e1a3d5b5f17dcc9efc}
+      \strng{fullhashraw}{85410a34eb0651e1a3d5b5f17dcc9efc}
+      \strng{bibnamehash}{85410a34eb0651e1a3d5b5f17dcc9efc}
+      \strng{authorbibnamehash}{85410a34eb0651e1a3d5b5f17dcc9efc}
+      \strng{authornamehash}{85410a34eb0651e1a3d5b5f17dcc9efc}
+      \strng{authorfullhash}{85410a34eb0651e1a3d5b5f17dcc9efc}
+      \strng{authorfullhashraw}{85410a34eb0651e1a3d5b5f17dcc9efc}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{refereed}
+      \field{day}{7}
+      \field{howpublished}{The 17th Workshop on Implementation, Compilation, Optimization of Object-Oriented Languages, Programs and Systems (ICOOOLPS 2022)}
+      \field{month}{6}
+      \field{note}{\textbf{Refereed}}
+      \field{series}{ICOOOLPS 2022}
+      \field{title}{Taming an Interpreter for Threaded Code Generation with a Tracing JIT Compiler}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://2022.ecoop.org/home/ICOOOLPS-2022
+      \endverb
+      \verb{url}
+      \verb https://2022.ecoop.org/home/ICOOOLPS-2022
+      \endverb
+    \endentry
+    \entry{takahashi2022trufle}{misc}{}{}
+      \name{author}{4}{}{%
+        {{hash=5e8b7511a1010ea028943afb5f0169ab}{%
+           family={Takahashi},
+           familyi={T\bibinitperiod},
+           given={Shusuke},
+           giveni={S\bibinitperiod}}}%
+        {{hash=7f6dd2b57697d15613277e1284a6988c}{%
+           family={Izawa},
+           familyi={I\bibinitperiod},
+           given={Yusuke},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=424533e9cd60e97301efe2081672b51e}{%
+           family={Masuhara},
+           familyi={M\bibinitperiod},
+           given={Hidehiko},
+           giveni={H\bibinitperiod}}}%
+        {{hash=3c5fd2780fb7c6627c8787a1bad27d3f}{%
+           family={Cong},
+           familyi={C\bibinitperiod},
+           given={Youyou},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin, Germany}%
+      }
+      \strng{namehash}{81c3e5845321287cac47bde669a6e220}
+      \strng{fullhash}{c31f4b3353fd41788a03dedf79a43899}
+      \strng{fullhashraw}{c31f4b3353fd41788a03dedf79a43899}
+      \strng{bibnamehash}{c31f4b3353fd41788a03dedf79a43899}
+      \strng{authorbibnamehash}{c31f4b3353fd41788a03dedf79a43899}
+      \strng{authornamehash}{81c3e5845321287cac47bde669a6e220}
+      \strng{authorfullhash}{c31f4b3353fd41788a03dedf79a43899}
+      \strng{authorfullhashraw}{c31f4b3353fd41788a03dedf79a43899}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{refereed}
+      \field{day}{7}
+      \field{howpublished}{Truffle/GraalVM Languages Workshop (Truffle 2022)}
+      \field{month}{6}
+      \field{note}{\textbf{Refereed}}
+      \field{series}{Truffle 2022}
+      \field{title}{Efficient Object Graph Recording with Truffle for Live Data-Structure Programming}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://2022.ecoop.org/home/truffle-2022
+      \endverb
+      \verb{url}
+      \verb https://2022.ecoop.org/home/truffle-2022
+      \endverb
+    \endentry
+    \entry{izawasigpx9-2022}{misc}{}{}
+      \name{author}{3}{}{%
+        {{hash=7f6dd2b57697d15613277e1284a6988c}{%
+           family={Izawa},
+           familyi={I\bibinitperiod},
+           given={Yusuke},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=424533e9cd60e97301efe2081672b51e}{%
+           family={Masuhara},
+           familyi={M\bibinitperiod},
+           given={Hidehiko},
+           giveni={H\bibinitperiod}}}%
+        {{hash=fadcdf4ae8395969d6f659ec4825996f}{%
+           family={Bolz-Tereick},
+           familyi={B\bibinithyphendelim T\bibinitperiod},
+           given={Carl\bibnamedelima Friedrich},
+           giveni={C\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \strng{namehash}{fa342e651b69ba6c6afdc936f8f208cd}
+      \strng{fullhash}{fa342e651b69ba6c6afdc936f8f208cd}
+      \strng{fullhashraw}{fa342e651b69ba6c6afdc936f8f208cd}
+      \strng{bibnamehash}{fa342e651b69ba6c6afdc936f8f208cd}
+      \strng{authorbibnamehash}{fa342e651b69ba6c6afdc936f8f208cd}
+      \strng{authornamehash}{fa342e651b69ba6c6afdc936f8f208cd}
+      \strng{authorfullhash}{fa342e651b69ba6c6afdc936f8f208cd}
+      \strng{authorfullhashraw}{fa342e651b69ba6c6afdc936f8f208cd}
+      \field{extraname}{4}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{nonrefereed}
+      \field{day}{23}
+      \field{howpublished}{SIGPX9}
+      \field{month}{3}
+      \field{title}{A wild (meta-)tracing baroque}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://sigpx.org/9/
+      \endverb
+      \verb{url}
+      \verb https://sigpx.org/9/
+      \endverb
+    \endentry
+    \entry{izawatsuken-2022}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=4f0964d20c08b813a122a1ba632ec5a7}{%
+           family={伊澤},
+           familyi={伊\bibinitperiod},
+           given={侑祐},
+           giveni={侑\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {japanese}%
+      }
+      \strng{namehash}{4f0964d20c08b813a122a1ba632ec5a7}
+      \strng{fullhash}{4f0964d20c08b813a122a1ba632ec5a7}
+      \strng{fullhashraw}{4f0964d20c08b813a122a1ba632ec5a7}
+      \strng{bibnamehash}{4f0964d20c08b813a122a1ba632ec5a7}
+      \strng{authorbibnamehash}{4f0964d20c08b813a122a1ba632ec5a7}
+      \strng{authornamehash}{4f0964d20c08b813a122a1ba632ec5a7}
+      \strng{authorfullhash}{4f0964d20c08b813a122a1ba632ec5a7}
+      \strng{authorfullhashraw}{4f0964d20c08b813a122a1ba632ec5a7}
+      \field{extraname}{4}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{nonrefereed}
+      \field{day}{18}
+      \field{howpublished}{通研共同プロジェクト「型主導コンパイルによる高性能高信頼ソフトウェア構成」研究発表会}
+      \field{month}{3}
+      \field{title}{A Meta-JIT Compiler That Rules Them All}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \true{nocite}
+    \endentry
+    \entry{izawa2022pepm}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{hash=7f6dd2b57697d15613277e1284a6988c}{%
+           family={Izawa},
+           familyi={I\bibinitperiod},
+           given={Yusuke},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=424533e9cd60e97301efe2081672b51e}{%
+           family={Masuhara},
+           familyi={M\bibinitperiod},
+           given={Hidehiko},
+           giveni={H\bibinitperiod}}}%
+        {{hash=fadcdf4ae8395969d6f659ec4825996f}{%
+           family={Bolz-Tereick},
+           familyi={B\bibinithyphendelim T\bibinitperiod},
+           given={Carl\bibnamedelima Friedrich},
+           giveni={C\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Virtual}%
+      }
+      \strng{namehash}{fa342e651b69ba6c6afdc936f8f208cd}
+      \strng{fullhash}{fa342e651b69ba6c6afdc936f8f208cd}
+      \strng{fullhashraw}{fa342e651b69ba6c6afdc936f8f208cd}
+      \strng{bibnamehash}{fa342e651b69ba6c6afdc936f8f208cd}
+      \strng{authorbibnamehash}{fa342e651b69ba6c6afdc936f8f208cd}
+      \strng{authornamehash}{fa342e651b69ba6c6afdc936f8f208cd}
+      \strng{authorfullhash}{fa342e651b69ba6c6afdc936f8f208cd}
+      \strng{authorfullhashraw}{fa342e651b69ba6c6afdc936f8f208cd}
+      \field{extraname}{5}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Modern, powerful virtual machines such as those running Java or JavaScript support multi-tier JIT compilation and optimization features to achieve their high performance. However, implementing and maintaining several compilers/optimizers that interact with each other requires hard-working VM developers. In this paper, we propose a technique to realize two-level JIT compilation in RPython without implementing several interpreters or compilers from scratch. As a preliminary realization, we created adaptive RPython, which performs both baseline JIT compilation based on threaded code and tracing JIT compilation. We also implemented a small programming language with it. Furthermore, we preliminarily evaluated the performance of that small language, and our baseline JIT compilation ran 1.77x faster than the interpreter-only execution. Furthermore, we observed that when we apply an optimal JIT compilation for different target methods, the performance was mostly the same as the one optimizing JIT compilation strategy, saving about 40 \% of the compilation code size.}
+      \field{booktitle}{The ACM SIGPLAN Workshop on Partial Evaluation and Program Manipulation}
+      \field{day}{17}
+      \field{eprinttype}{arXiv}
+      \field{month}{1}
+      \field{series}{PEPM 2022}
+      \field{title}{Two-level Just-in-Time Compilation with One Interpreter and One Engine}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{eprint}
+      \verb 2201.09268
+      \endverb
+      \verb{urlraw}
+      \verb https://popl22.sigplan.org/details/pepm-2022-papers/3/Two-level-Just-in-Time-Compilation-with-One-Interpreter-and-One-Engine
+      \endverb
+      \verb{url}
+      \verb https://popl22.sigplan.org/details/pepm-2022-papers/3/Two-level-Just-in-Time-Compilation-with-One-Interpreter-and-One-Engine
+      \endverb
+    \endentry
+    \entry{izawa2022jot}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=7f6dd2b57697d15613277e1284a6988c}{%
+           family={Izawa},
+           familyi={I\bibinitperiod},
+           given={Yusuke},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=424533e9cd60e97301efe2081672b51e}{%
+           family={Masuhara},
+           familyi={M\bibinitperiod},
+           given={Hidehiko},
+           giveni={H\bibinitperiod}}}%
+        {{hash=fadcdf4ae8395969d6f659ec4825996f}{%
+           family={Bolz-Tereick},
+           familyi={B\bibinithyphendelim T\bibinitperiod},
+           given={Carl\bibnamedelima Friedrich},
+           giveni={C\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=3c5fd2780fb7c6627c8787a1bad27d3f}{%
+           family={Cong},
+           familyi={C\bibinitperiod},
+           given={Youyou},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{3920ba4518cb581d6766a3ff24d55b6a}
+      \strng{fullhash}{51480e4993cbe612bf16828a18684019}
+      \strng{fullhashraw}{51480e4993cbe612bf16828a18684019}
+      \strng{bibnamehash}{51480e4993cbe612bf16828a18684019}
+      \strng{authorbibnamehash}{51480e4993cbe612bf16828a18684019}
+      \strng{authornamehash}{3920ba4518cb581d6766a3ff24d55b6a}
+      \strng{authorfullhash}{51480e4993cbe612bf16828a18684019}
+      \strng{authorfullhashraw}{51480e4993cbe612bf16828a18684019}
+      \field{extraname}{3}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Language implementation frameworks, e.g., RPython and Truffle/Graal, are practical tools for creating efficient virtual machines, including a well-functioning just-in-time (JIT) compiler. It is demanding to support multitier JIT compilation in such a framework for language developers. This paper presents an idea to generate threaded code by reusing an existing meta-tracing JIT compiler, as well as an interpreter design for it. Our approach does not largely modify RPython itself but constructs an effective interpreter definition to enable threaded code generation in RPython. We expect our system to be extended to support multilevel JIT compilation in the RPython framework. We measured the potential performance of our threaded code generation by simulating its behavior in PyPy. We confirmed that our approach reduced code sizes by 80 \% and compilation times by 60 \% compared to PyPy's JIT compiler on average, and ran about 7 \% faster than the interpreter-only execution.}
+      \field{annotation}{refereed}
+      \field{eprinttype}{arXiv}
+      \field{issn}{1660-1769}
+      \field{journaltitle}{Journal of Object Technology}
+      \field{note}{selected}
+      \field{title}{Threaded Code Generation with a Meta-Tracing JIT Compiler}
+      \field{year}{2022}
+      \true{nocite}
+      \field{pages}{2:1\bibrangedash 11}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.5381/jot.2022.21.2.a1
+      \endverb
+      \verb{eprint}
+      \verb 2106.12496
+      \endverb
+    \endentry
+    \entry{takahashi2021ipsj-pro-paper}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=5e8b7511a1010ea028943afb5f0169ab}{%
+           family={Takahashi},
+           familyi={T\bibinitperiod},
+           given={Shusuke},
+           giveni={S\bibinitperiod}}}%
+        {{hash=7f6dd2b57697d15613277e1284a6988c}{%
+           family={Izawa},
+           familyi={I\bibinitperiod},
+           given={Yusuke},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=424533e9cd60e97301efe2081672b51e}{%
+           family={Masuhara},
+           familyi={M\bibinitperiod},
+           given={Hidehiko},
+           giveni={H\bibinitperiod}}}%
+        {{hash=3c5fd2780fb7c6627c8787a1bad27d3f}{%
+           family={Cong},
+           familyi={C\bibinitperiod},
+           given={Youyou},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{81c3e5845321287cac47bde669a6e220}
+      \strng{fullhash}{c31f4b3353fd41788a03dedf79a43899}
+      \strng{fullhashraw}{c31f4b3353fd41788a03dedf79a43899}
+      \strng{bibnamehash}{c31f4b3353fd41788a03dedf79a43899}
+      \strng{authorbibnamehash}{c31f4b3353fd41788a03dedf79a43899}
+      \strng{authornamehash}{81c3e5845321287cac47bde669a6e220}
+      \strng{authorfullhash}{c31f4b3353fd41788a03dedf79a43899}
+      \strng{authorfullhashraw}{c31f4b3353fd41788a03dedf79a43899}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Data-structure live programming environments execute a program, collect object graphs (objects and their mutual references) created and modified during the execution, and visualize the graphs as a node-link diagram. Existing implementations collect object graphs by instrumenting checkpoints, which traverse reachable objects, into every necessary points in the program. Since the cost of each checkpoint is proportional to the number of existing objects, its overhead can be huge. This paper proposes (1) a method to collect object graphs by recording object creation and modification events into an efficient data structure, and (2) to implement the object graph collection mechanism by extending a language implemented on top of a language implementation framework. As a result, the overhead of object graph collection is merely proportional to the number of object creation/modification operations in total. We implemented the proposed mechanism for the Kanon data-structure live programming environment by extending GraalJS, which is a JavaScript implementation on the Graal/Truffle language implementation framework. We compared our new implementation against the original Kanon, which is based on checkpointing, and confirmed that our implementation improves program execution (and data collection) speed, and has sufficiently small overheads to reconstruct object graphs.}
+      \field{annotation}{refereed}
+      \field{journaltitle}{Journal of Information Processing}
+      \field{note}{selected}
+      \field{title}{An approach to collect object graphs for data-structure live programming based on a language implementation framework}
+      \field{volume}{30}
+      \field{year}{2022}
+      \true{nocite}
+      \field{pages}{451\bibrangedash 463}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.2197/ipsjjip.30.451
+      \endverb
+    \endentry
+    \entry{izawa2021ipsj-pro20213}{misc}{}{}
+      \name{author}{4}{}{%
+        {{hash=4f0964d20c08b813a122a1ba632ec5a7}{%
+           family={伊澤},
+           familyi={伊\bibinitperiod},
+           given={侑祐},
+           giveni={侑\bibinitperiod}}}%
+        {{hash=4a59e3767c37fb756bb16d90da702619}{%
+           family={倫大},
+           familyi={倫\bibinitperiod},
+           given={堀江},
+           giveni={堀\bibinitperiod}}}%
+        {{hash=15e9aa2a6319fc713f99e8faaaf39e25}{%
+           family={一則},
+           familyi={一\bibinitperiod},
+           given={緒方},
+           giveni={緒\bibinitperiod}}}%
+        {{hash=a9c01888c312acb434b551dfa7334a3c}{%
+           family={立寛},
+           familyi={立\bibinitperiod},
+           given={千葉},
+           giveni={千\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {japanese}%
+      }
+      \strng{namehash}{45cebbb7d8fad85703f7a812de6f7012}
+      \strng{fullhash}{e6fdcf264bd37c9a9691a173589c8be7}
+      \strng{fullhashraw}{e6fdcf264bd37c9a9691a173589c8be7}
+      \strng{bibnamehash}{e6fdcf264bd37c9a9691a173589c8be7}
+      \strng{authorbibnamehash}{e6fdcf264bd37c9a9691a173589c8be7}
+      \strng{authornamehash}{45cebbb7d8fad85703f7a812de6f7012}
+      \strng{authorfullhash}{e6fdcf264bd37c9a9691a173589c8be7}
+      \strng{authorfullhashraw}{e6fdcf264bd37c9a9691a173589c8be7}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{nonrefereed}
+      \field{day}{1}
+      \field{howpublished}{情報処理学会第136回プログラミング研究会 PRO 2021-3-(6)}
+      \field{month}{11}
+      \field{title}{Java静的コンパイラを用いたQuarkusフレームワークの性能評価}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://sigpro.ipsj.or.jp/pro2021-3/program/
+      \endverb
+      \verb{url}
+      \verb https://sigpro.ipsj.or.jp/pro2021-3/program/
+      \endverb
+    \endentry
+    \entry{takahashi2021ipsj-pro-2}{misc}{}{}
+      \name{author}{4}{}{%
+        {{hash=85ab193acfbedfd8a803991c67db51b9}{%
+           family={高橋},
+           familyi={高\bibinitperiod},
+           given={修祐},
+           giveni={修\bibinitperiod}}}%
+        {{hash=7259ab23901040f0be4abca452accc71}{%
+           family={侑祐},
+           familyi={侑\bibinitperiod},
+           given={伊澤},
+           giveni={伊\bibinitperiod}}}%
+        {{hash=46d0be5458d38efdee29da9e26d8dec3}{%
+           family={英彦},
+           familyi={英\bibinitperiod},
+           given={増原},
+           giveni={増\bibinitperiod}}}%
+        {{hash=4e50b7d71ea5bfa9c5afaae9c03dc501}{%
+           family={悠悠},
+           familyi={悠\bibinitperiod},
+           given={叢},
+           giveni={叢\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {japanese}%
+      }
+      \strng{namehash}{95caf59b510fdbe587e73d9f17a19a57}
+      \strng{fullhash}{f40f587a5034794cd39157d15d57d3d3}
+      \strng{fullhashraw}{f40f587a5034794cd39157d15d57d3d3}
+      \strng{bibnamehash}{f40f587a5034794cd39157d15d57d3d3}
+      \strng{authorbibnamehash}{f40f587a5034794cd39157d15d57d3d3}
+      \strng{authornamehash}{95caf59b510fdbe587e73d9f17a19a57}
+      \strng{authorfullhash}{f40f587a5034794cd39157d15d57d3d3}
+      \strng{authorfullhashraw}{f40f587a5034794cd39157d15d57d3d3}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{nonrefereed}
+      \field{day}{1}
+      \field{howpublished}{情報処理学会第136回プログラミング研究会 PRO 2021-3-(5)}
+      \field{month}{11}
+      \field{title}{データ構造ライブプログラミングのための言語実現フレームワークに基づくオブジェクトグラフ収集手法}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://sigpro.ipsj.or.jp/pro2021-3/program/
+      \endverb
+      \verb{url}
+      \verb https://sigpro.ipsj.or.jp/pro2021-3/program/
+      \endverb
+    \endentry
+    \entry{izawa2021act-x-2}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=4f0964d20c08b813a122a1ba632ec5a7}{%
+           family={伊澤},
+           familyi={伊\bibinitperiod},
+           given={侑祐},
+           giveni={侑\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {japanese}%
+      }
+      \strng{namehash}{4f0964d20c08b813a122a1ba632ec5a7}
+      \strng{fullhash}{4f0964d20c08b813a122a1ba632ec5a7}
+      \strng{fullhashraw}{4f0964d20c08b813a122a1ba632ec5a7}
+      \strng{bibnamehash}{4f0964d20c08b813a122a1ba632ec5a7}
+      \strng{authorbibnamehash}{4f0964d20c08b813a122a1ba632ec5a7}
+      \strng{authornamehash}{4f0964d20c08b813a122a1ba632ec5a7}
+      \strng{authorfullhash}{4f0964d20c08b813a122a1ba632ec5a7}
+      \strng{authorfullhashraw}{4f0964d20c08b813a122a1ba632ec5a7}
+      \field{extraname}{5}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{nonrefereed}
+      \field{howpublished}{JST ACT-X 第5回領域会議}
+      \field{month}{11}
+      \field{note}{Poster Presentation}
+      \field{title}{汎用性と高性能を両立するハイブリッド型実行時コンパイラ}
+      \field{year}{2021}
+      \true{nocite}
+    \endentry
+    \entry{takahashi2021ipsj-pro}{misc}{}{}
+      \name{author}{4}{}{%
+        {{hash=85ab193acfbedfd8a803991c67db51b9}{%
+           family={高橋},
+           familyi={高\bibinitperiod},
+           given={修祐},
+           giveni={修\bibinitperiod}}}%
+        {{hash=7259ab23901040f0be4abca452accc71}{%
+           family={侑祐},
+           familyi={侑\bibinitperiod},
+           given={伊澤},
+           giveni={伊\bibinitperiod}}}%
+        {{hash=46d0be5458d38efdee29da9e26d8dec3}{%
+           family={英彦},
+           familyi={英\bibinitperiod},
+           given={増原},
+           giveni={増\bibinitperiod}}}%
+        {{hash=4e50b7d71ea5bfa9c5afaae9c03dc501}{%
+           family={悠悠},
+           familyi={悠\bibinitperiod},
+           given={叢},
+           giveni={叢\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {japanese}%
+      }
+      \strng{namehash}{95caf59b510fdbe587e73d9f17a19a57}
+      \strng{fullhash}{f40f587a5034794cd39157d15d57d3d3}
+      \strng{fullhashraw}{f40f587a5034794cd39157d15d57d3d3}
+      \strng{bibnamehash}{f40f587a5034794cd39157d15d57d3d3}
+      \strng{authorbibnamehash}{f40f587a5034794cd39157d15d57d3d3}
+      \strng{authornamehash}{95caf59b510fdbe587e73d9f17a19a57}
+      \strng{authorfullhash}{f40f587a5034794cd39157d15d57d3d3}
+      \strng{authorfullhashraw}{f40f587a5034794cd39157d15d57d3d3}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{nonrefereed}
+      \field{day}{21}
+      \field{howpublished}{情報処理学会第135回プログラミング研究会 PRO 2021-2-(7)}
+      \field{month}{7}
+      \field{title}{言語実現フレームワークに基づく汎言語的オブジェクトグラフ収集手法}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://sigpro.ipsj.or.jp/pro2021-2/program/
+      \endverb
+      \verb{url}
+      \verb https://sigpro.ipsj.or.jp/pro2021-2/program/
+      \endverb
+    \endentry
+    \entry{izawa2021icooolps}{misc}{}{}
+      \name{author}{4}{}{%
+        {{hash=7f6dd2b57697d15613277e1284a6988c}{%
+           family={Izawa},
+           familyi={I\bibinitperiod},
+           given={Yusuke},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=424533e9cd60e97301efe2081672b51e}{%
+           family={Masuhara},
+           familyi={M\bibinitperiod},
+           given={Hidehiko},
+           giveni={H\bibinitperiod}}}%
+        {{hash=fadcdf4ae8395969d6f659ec4825996f}{%
+           family={Bolz-Tereick},
+           familyi={B\bibinithyphendelim T\bibinitperiod},
+           given={Carl\bibnamedelima Friedrich},
+           giveni={C\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=3c5fd2780fb7c6627c8787a1bad27d3f}{%
+           family={Cong},
+           familyi={C\bibinitperiod},
+           given={Youyou},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Virtual}%
+      }
+      \strng{namehash}{3920ba4518cb581d6766a3ff24d55b6a}
+      \strng{fullhash}{51480e4993cbe612bf16828a18684019}
+      \strng{fullhashraw}{51480e4993cbe612bf16828a18684019}
+      \strng{bibnamehash}{51480e4993cbe612bf16828a18684019}
+      \strng{authorbibnamehash}{51480e4993cbe612bf16828a18684019}
+      \strng{authornamehash}{3920ba4518cb581d6766a3ff24d55b6a}
+      \strng{authorfullhash}{51480e4993cbe612bf16828a18684019}
+      \strng{authorfullhashraw}{51480e4993cbe612bf16828a18684019}
+      \field{extraname}{4}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{refereed}
+      \field{day}{13}
+      \field{eprinttype}{arXiv}
+      \field{howpublished}{The 16th Workshop on Implementation, Compilation, Optimization of Object-Oriented Languages, Programs and Systems (ICOOOLPS 2021)}
+      \field{month}{7}
+      \field{note}{\textbf{Refereed}}
+      \field{series}{ICOOOLPS 2021}
+      \field{title}{Threaded Code Generation with a Meta-tracing JIT Compiler}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{eprint}
+      \verb 2106.12496v4
+      \endverb
+      \verb{urlraw}
+      \verb https://conf.researchr.org/track/ecoop-issta-2021/ecoop-issta-2021-icooolps
+      \endverb
+      \verb{url}
+      \verb https://conf.researchr.org/track/ecoop-issta-2021/ecoop-issta-2021-icooolps
+      \endverb
+    \endentry
+    \entry{izawa2021act-x-1}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=4f0964d20c08b813a122a1ba632ec5a7}{%
+           family={伊澤},
+           familyi={伊\bibinitperiod},
+           given={侑祐},
+           giveni={侑\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {japanese}%
+      }
+      \strng{namehash}{4f0964d20c08b813a122a1ba632ec5a7}
+      \strng{fullhash}{4f0964d20c08b813a122a1ba632ec5a7}
+      \strng{fullhashraw}{4f0964d20c08b813a122a1ba632ec5a7}
+      \strng{bibnamehash}{4f0964d20c08b813a122a1ba632ec5a7}
+      \strng{authorbibnamehash}{4f0964d20c08b813a122a1ba632ec5a7}
+      \strng{authornamehash}{4f0964d20c08b813a122a1ba632ec5a7}
+      \strng{authorfullhash}{4f0964d20c08b813a122a1ba632ec5a7}
+      \strng{authorfullhashraw}{4f0964d20c08b813a122a1ba632ec5a7}
+      \field{extraname}{6}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{nonrefereed}
+      \field{howpublished}{JST ACT-X 第4回領域会議}
+      \field{month}{6}
+      \field{title}{汎用性と高性能を両立するハイブリッド型実行時コンパイラ}
+      \field{year}{2021}
+      \true{nocite}
+    \endentry
+    \entry{izawa2021ppl-reproduction}{misc}{}{}
+      \name{author}{2}{}{%
+        {{hash=7f6dd2b57697d15613277e1284a6988c}{%
+           family={Izawa},
+           familyi={I\bibinitperiod},
+           given={Yusuke},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=424533e9cd60e97301efe2081672b51e}{%
+           family={Masuhara},
+           familyi={M\bibinitperiod},
+           given={Hidehiko},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{85410a34eb0651e1a3d5b5f17dcc9efc}
+      \strng{fullhash}{85410a34eb0651e1a3d5b5f17dcc9efc}
+      \strng{fullhashraw}{85410a34eb0651e1a3d5b5f17dcc9efc}
+      \strng{bibnamehash}{85410a34eb0651e1a3d5b5f17dcc9efc}
+      \strng{authorbibnamehash}{85410a34eb0651e1a3d5b5f17dcc9efc}
+      \strng{authornamehash}{85410a34eb0651e1a3d5b5f17dcc9efc}
+      \strng{authorfullhash}{85410a34eb0651e1a3d5b5f17dcc9efc}
+      \strng{authorfullhashraw}{85410a34eb0651e1a3d5b5f17dcc9efc}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{nonrefereed}
+      \field{booktitle}{The 23nd JSSST Workshop on Programming and Programming Languages}
+      \field{howpublished}{The 23nd JSSST Workshop on Programming and Programming Languages}
+      \field{month}{3}
+      \field{note}{Reproduction of the DLS'20 talk at JSSST PPL}
+      \field{title}{Amalgamating Different {JIT} Compilations in a Meta-tracing {JIT} Compiler Framework}
+      \field{year}{2021}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://jssst-ppl.org/workshop/2021/
+      \endverb
+      \verb{url}
+      \verb https://jssst-ppl.org/workshop/2021/
+      \endverb
+    \endentry
+    \entry{izawa2021ppl}{misc}{}{}
+      \name{author}{3}{}{%
+        {{hash=7f6dd2b57697d15613277e1284a6988c}{%
+           family={Izawa},
+           familyi={I\bibinitperiod},
+           given={Yusuke},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=424533e9cd60e97301efe2081672b51e}{%
+           family={Masuhara},
+           familyi={M\bibinitperiod},
+           given={Hidehiko},
+           giveni={H\bibinitperiod}}}%
+        {{hash=3c5fd2780fb7c6627c8787a1bad27d3f}{%
+           family={Cong},
+           familyi={C\bibinitperiod},
+           given={Youyou},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{e358c01677e81f7faba2682d18626a0a}
+      \strng{fullhash}{e358c01677e81f7faba2682d18626a0a}
+      \strng{fullhashraw}{e358c01677e81f7faba2682d18626a0a}
+      \strng{bibnamehash}{e358c01677e81f7faba2682d18626a0a}
+      \strng{authorbibnamehash}{e358c01677e81f7faba2682d18626a0a}
+      \strng{authornamehash}{e358c01677e81f7faba2682d18626a0a}
+      \strng{authorfullhash}{e358c01677e81f7faba2682d18626a0a}
+      \strng{authorfullhashraw}{e358c01677e81f7faba2682d18626a0a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{nonrefereed}
+      \field{howpublished}{The 23nd JSSST Workshop on Programming and Programming Languages}
+      \field{month}{3}
+      \field{note}{Poster Presentation}
+      \field{title}{An Interpreter Design for Supporting Different {JIT} Compilations in RPython Framework}
+      \field{year}{2021}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://easychair.org/smart-program/PPL2021/
+      \endverb
+      \verb{url}
+      \verb https://easychair.org/smart-program/PPL2021/
+      \endverb
+    \endentry
+    \entry{takahashi2021ppl}{misc}{}{}
+      \name{author}{4}{}{%
+        {{hash=5e8b7511a1010ea028943afb5f0169ab}{%
+           family={Takahashi},
+           familyi={T\bibinitperiod},
+           given={Shusuke},
+           giveni={S\bibinitperiod}}}%
+        {{hash=7f6dd2b57697d15613277e1284a6988c}{%
+           family={Izawa},
+           familyi={I\bibinitperiod},
+           given={Yusuke},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=424533e9cd60e97301efe2081672b51e}{%
+           family={Masuhara},
+           familyi={M\bibinitperiod},
+           given={Hidehiko},
+           giveni={H\bibinitperiod}}}%
+        {{hash=3c5fd2780fb7c6627c8787a1bad27d3f}{%
+           family={Cong},
+           familyi={C\bibinitperiod},
+           given={Youyou},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{81c3e5845321287cac47bde669a6e220}
+      \strng{fullhash}{c31f4b3353fd41788a03dedf79a43899}
+      \strng{fullhashraw}{c31f4b3353fd41788a03dedf79a43899}
+      \strng{bibnamehash}{c31f4b3353fd41788a03dedf79a43899}
+      \strng{authorbibnamehash}{c31f4b3353fd41788a03dedf79a43899}
+      \strng{authornamehash}{81c3e5845321287cac47bde669a6e220}
+      \strng{authorfullhash}{c31f4b3353fd41788a03dedf79a43899}
+      \strng{authorfullhashraw}{c31f4b3353fd41788a03dedf79a43899}
+      \field{extraname}{3}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{nonrefereed}
+      \field{howpublished}{The 23nd JSSST Workshop on Programming and Programming Languages}
+      \field{month}{3}
+      \field{note}{Poster Presentation}
+      \field{title}{汎言語的ライブプログラミング環境のためのデータ構造解析手法}
+      \field{year}{2021}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://easychair.org/smart-program/PPL2021/
+      \endverb
+      \verb{url}
+      \verb https://easychair.org/smart-program/PPL2021/
+      \endverb
+    \endentry
+    \entry{izawa2020act-x-1}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=4f0964d20c08b813a122a1ba632ec5a7}{%
+           family={伊澤},
+           familyi={伊\bibinitperiod},
+           given={侑祐},
+           giveni={侑\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {japanese}%
+      }
+      \strng{namehash}{4f0964d20c08b813a122a1ba632ec5a7}
+      \strng{fullhash}{4f0964d20c08b813a122a1ba632ec5a7}
+      \strng{fullhashraw}{4f0964d20c08b813a122a1ba632ec5a7}
+      \strng{bibnamehash}{4f0964d20c08b813a122a1ba632ec5a7}
+      \strng{authorbibnamehash}{4f0964d20c08b813a122a1ba632ec5a7}
+      \strng{authornamehash}{4f0964d20c08b813a122a1ba632ec5a7}
+      \strng{authorfullhash}{4f0964d20c08b813a122a1ba632ec5a7}
+      \strng{authorfullhashraw}{4f0964d20c08b813a122a1ba632ec5a7}
+      \field{extraname}{7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{nonrefereed}
+      \field{howpublished}{JST ACT-X 第3回領域会議}
+      \field{month}{12}
+      \field{title}{汎用性と高性能を両立するハイブリッド型実行時コンパイラ}
+      \field{year}{2020}
+      \true{nocite}
+    \endentry
+    \entry{10.1145/3426422.3426977}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{hash=7f6dd2b57697d15613277e1284a6988c}{%
+           family={Izawa},
+           familyi={I\bibinitperiod},
+           given={Yusuke},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=424533e9cd60e97301efe2081672b51e}{%
+           family={Masuhara},
+           familyi={M\bibinitperiod},
+           given={Hidehiko},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Virtual, USA}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{85410a34eb0651e1a3d5b5f17dcc9efc}
+      \strng{fullhash}{85410a34eb0651e1a3d5b5f17dcc9efc}
+      \strng{fullhashraw}{85410a34eb0651e1a3d5b5f17dcc9efc}
+      \strng{bibnamehash}{85410a34eb0651e1a3d5b5f17dcc9efc}
+      \strng{authorbibnamehash}{85410a34eb0651e1a3d5b5f17dcc9efc}
+      \strng{authornamehash}{85410a34eb0651e1a3d5b5f17dcc9efc}
+      \strng{authorfullhash}{85410a34eb0651e1a3d5b5f17dcc9efc}
+      \strng{authorfullhashraw}{85410a34eb0651e1a3d5b5f17dcc9efc}
+      \field{extraname}{3}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Most virtual machines employ just-in-time (JIT) compilers to achieve high-performance. Trace-based compilation and method-based compilation are two major compilation strategies in JIT compilers. In general, the former excels in compiling programs with more in-depth method calls and more dynamic branches, while the latter is suitable for a wide range of programs. Some previous studies have suggested that each strategy has its advantages and disadvantages, and there is no clear winner. In this paper, we present a new approach, namely, the meta-hybrid JIT compilation strategy. It combines trace-based and method-based compilations to utilize the advantages of both strategies. Moreover, it is realized as a meta JIT compiler framework; thus, we can generate a VM with a hybrid JIT compiler that can apply different program parts by merely writing an interpreter with our framework. We chose to extend a meta-tracing JIT compiler and supported the two compilations on it. As a prototype, we implemented a simple meta-tracing JIT compiler framework called BacCaml based on the MinCaml compiler by following RPython\textquoteright{}s architecture. We evaluated its performance by creating a small functional programming language with BacCaml and running microbenchmark programs. Furthermore, we performed a synthetic experiment to confirm that there are programs that run faster by hybrid compilation.}
+      \field{annotation}{refereed}
+      \field{booktitle}{Proceedings of the 16th ACM SIGPLAN International Symposium on Dynamic Languages}
+      \field{day}{17}
+      \field{isbn}{9781450381758}
+      \field{month}{11}
+      \field{note}{selected}
+      \field{series}{DLS 2020}
+      \field{title}{Amalgamating Different JIT Compilations in a Meta-Tracing JIT Compiler Framework}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \true{nocite}
+      \field{pages}{1\bibrangedash 15}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1145/3426422.3426977
+      \endverb
+      \keyw{JIT compiler,RPython,meta-tracing JIT compiler,language implementation framework}
+    \endentry
+    \entry{takahashi2020jssstppl}{misc}{}{}
+      \name{author}{4}{}{%
+        {{hash=5e8b7511a1010ea028943afb5f0169ab}{%
+           family={Takahashi},
+           familyi={T\bibinitperiod},
+           given={Shusuke},
+           giveni={S\bibinitperiod}}}%
+        {{hash=7f6dd2b57697d15613277e1284a6988c}{%
+           family={Izawa},
+           familyi={I\bibinitperiod},
+           given={Yusuke},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=424533e9cd60e97301efe2081672b51e}{%
+           family={Masuhara},
+           familyi={M\bibinitperiod},
+           given={Hidehiko},
+           giveni={H\bibinitperiod}}}%
+        {{hash=3c5fd2780fb7c6627c8787a1bad27d3f}{%
+           family={Cong},
+           familyi={C\bibinitperiod},
+           given={Youyou},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{81c3e5845321287cac47bde669a6e220}
+      \strng{fullhash}{c31f4b3353fd41788a03dedf79a43899}
+      \strng{fullhashraw}{c31f4b3353fd41788a03dedf79a43899}
+      \strng{bibnamehash}{c31f4b3353fd41788a03dedf79a43899}
+      \strng{authorbibnamehash}{c31f4b3353fd41788a03dedf79a43899}
+      \strng{authornamehash}{81c3e5845321287cac47bde669a6e220}
+      \strng{authorfullhash}{c31f4b3353fd41788a03dedf79a43899}
+      \strng{authorfullhashraw}{c31f4b3353fd41788a03dedf79a43899}
+      \field{extraname}{4}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{nonrefereed}
+      \field{howpublished}{The 37th JSSST Anual Conference. Japan Society for Software Science and Technology}
+      \field{month}{9}
+      \field{note}{Poster Presentation}
+      \field{title}{ライブプログラミング環境は多言語化/多開発環境化の夢を見るか}
+      \field{year}{2020}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://jssst2020.wordpress.com/program/
+      \endverb
+      \verb{url}
+      \verb https://jssst2020.wordpress.com/program/
+      \endverb
+    \endentry
+    \entry{izawa2020ppl}{misc}{}{}
+      \name{author}{2}{}{%
+        {{hash=7f6dd2b57697d15613277e1284a6988c}{%
+           family={Izawa},
+           familyi={I\bibinitperiod},
+           given={Yusuke},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=424533e9cd60e97301efe2081672b51e}{%
+           family={Masuhara},
+           familyi={M\bibinitperiod},
+           given={Hidehiko},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{85410a34eb0651e1a3d5b5f17dcc9efc}
+      \strng{fullhash}{85410a34eb0651e1a3d5b5f17dcc9efc}
+      \strng{fullhashraw}{85410a34eb0651e1a3d5b5f17dcc9efc}
+      \strng{bibnamehash}{85410a34eb0651e1a3d5b5f17dcc9efc}
+      \strng{authorbibnamehash}{85410a34eb0651e1a3d5b5f17dcc9efc}
+      \strng{authornamehash}{85410a34eb0651e1a3d5b5f17dcc9efc}
+      \strng{authorfullhash}{85410a34eb0651e1a3d5b5f17dcc9efc}
+      \strng{authorfullhashraw}{85410a34eb0651e1a3d5b5f17dcc9efc}
+      \field{extraname}{4}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{nonrefereed}
+      \field{howpublished}{The 22nd JSSST Workshop on Programming and Programming Languages}
+      \field{month}{3}
+      \field{note}{Poster Presentation}
+      \field{title}{Making different JIT Compilations Dancing to the Same Tune, Acting in the Meta-level}
+      \field{year}{2020}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://easychair.org/smart-program/PPL2020/
+      \endverb
+      \verb{url}
+      \verb https://easychair.org/smart-program/PPL2020/
+      \endverb
+    \endentry
+    \entry{izawa2020master}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{hash=7f6dd2b57697d15613277e1284a6988c}{%
+           family={Izawa},
+           familyi={I\bibinitperiod},
+           given={Yusuke},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Tokyo Institute of Technology}%
+      }
+      \strng{namehash}{7f6dd2b57697d15613277e1284a6988c}
+      \strng{fullhash}{7f6dd2b57697d15613277e1284a6988c}
+      \strng{fullhashraw}{7f6dd2b57697d15613277e1284a6988c}
+      \strng{bibnamehash}{7f6dd2b57697d15613277e1284a6988c}
+      \strng{authorbibnamehash}{7f6dd2b57697d15613277e1284a6988c}
+      \strng{authornamehash}{7f6dd2b57697d15613277e1284a6988c}
+      \strng{authorfullhash}{7f6dd2b57697d15613277e1284a6988c}
+      \strng{authorfullhashraw}{7f6dd2b57697d15613277e1284a6988c}
+      \field{extraname}{4}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Stack Hybridization: A Mechanism for Bridging Two Compilation Strategies in a Meta Compiler Framework}
+      \field{type}{mathesis}
+      \field{year}{2020}
+      \true{nocite}
+    \endentry
+    \entry{masuhara2020live}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{hash=424533e9cd60e97301efe2081672b51e}{%
+           family={Masuhara},
+           familyi={M\bibinitperiod},
+           given={Hidehiko},
+           giveni={H\bibinitperiod}}}%
+        {{hash=5e8b7511a1010ea028943afb5f0169ab}{%
+           family={Takahashi},
+           familyi={T\bibinitperiod},
+           given={Shusuke},
+           giveni={S\bibinitperiod}}}%
+        {{hash=7f6dd2b57697d15613277e1284a6988c}{%
+           family={Izawa},
+           familyi={I\bibinitperiod},
+           given={Yusuke},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=3c5fd2780fb7c6627c8787a1bad27d3f}{%
+           family={Cong},
+           familyi={C\bibinitperiod},
+           given={Youyou},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Virtual}%
+      }
+      \strng{namehash}{1c95d51583f651c0b15edca86200ca83}
+      \strng{fullhash}{8e7144c06545c36ebfadf00c40069e03}
+      \strng{fullhashraw}{8e7144c06545c36ebfadf00c40069e03}
+      \strng{bibnamehash}{8e7144c06545c36ebfadf00c40069e03}
+      \strng{authorbibnamehash}{8e7144c06545c36ebfadf00c40069e03}
+      \strng{authornamehash}{1c95d51583f651c0b15edca86200ca83}
+      \strng{authorfullhash}{8e7144c06545c36ebfadf00c40069e03}
+      \strng{authorfullhashraw}{8e7144c06545c36ebfadf00c40069e03}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{While applications of live programming are expanding to more practical and professional domains, most live programming environments (LPEs) are still developed for a single target language with an original code editor. We propose an implementation framework for developing LPEs so that we can minimize efforts on implementing an LPE for a different target language and an existing code editor/IDE. Our idea is to use a meta-JIT language implementation framework (e.g., Graal/Truffle and RPython) and LSP to separate core live programming implementations from language-specific and editor/IDE specific implementations. This paper takes the Kanon live programming environment as a concrete example and discusses how we can design the framework to accommodate the features of Kanon. Although the framework design is still underway, the paper presents a sketch of the framework APIs for separating language-specific functions and clarifies the requirements to LSP.}
+      \field{annotation}{refereed}
+      \field{booktitle}{Proceedings of the 6th Workshop on Live Programming}
+      \field{note}{\textbf{Refereed}. 5 pages}
+      \field{series}{Live 2020}
+      \field{title}{Toward a Multi-Language and Multi-Environment Framework for Live Programming}
+      \field{year}{2020}
+      \true{nocite}
+      \field{pages}{1\bibrangedash 5}
+      \range{pages}{5}
+      \verb{urlraw}
+      \verb http://liveprog.org/live-2020/Toward-a-Multi-Language-and-Multi-Environment-Framework-for-Live-Programming/
+      \endverb
+      \verb{url}
+      \verb http://liveprog.org/live-2020/Toward-a-Multi-Language-and-Multi-Environment-Framework-for-Live-Programming/
+      \endverb
+    \endentry
+    \entry{izawa2019kumiki}{misc}{}{}
+      \name{author}{3}{}{%
+        {{hash=7f6dd2b57697d15613277e1284a6988c}{%
+           family={Izawa},
+           familyi={I\bibinitperiod},
+           given={Yusuke},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=424533e9cd60e97301efe2081672b51e}{%
+           family={Masuhara},
+           familyi={M\bibinitperiod},
+           given={Hidehiko},
+           giveni={H\bibinitperiod}}}%
+        {{hash=cfc8d061c4de1abd14306743a056c78d}{%
+           family={Aotani},
+           familyi={A\bibinitperiod},
+           given={Tomoyuki},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{8ec52ba3fa6d85b94a8d2ff9ee3aabab}
+      \strng{fullhash}{8ec52ba3fa6d85b94a8d2ff9ee3aabab}
+      \strng{fullhashraw}{8ec52ba3fa6d85b94a8d2ff9ee3aabab}
+      \strng{bibnamehash}{8ec52ba3fa6d85b94a8d2ff9ee3aabab}
+      \strng{authorbibnamehash}{8ec52ba3fa6d85b94a8d2ff9ee3aabab}
+      \strng{authornamehash}{8ec52ba3fa6d85b94a8d2ff9ee3aabab}
+      \strng{authorfullhash}{8ec52ba3fa6d85b94a8d2ff9ee3aabab}
+      \strng{authorfullhashraw}{8ec52ba3fa6d85b94a8d2ff9ee3aabab}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{nonrefereed}
+      \field{howpublished}{The Kumiki 6.0 Meeting}
+      \field{month}{12}
+      \field{title}{Meta-hybrid JIT Compilation Approach for the Path-divergence Problem}
+      \field{year}{2019}
+      \true{nocite}
+    \endentry
+    \entry{izawa2019jssst}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{hash=7f6dd2b57697d15613277e1284a6988c}{%
+           family={Izawa},
+           familyi={I\bibinitperiod},
+           given={Yusuke},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=424533e9cd60e97301efe2081672b51e}{%
+           family={Masuhara},
+           familyi={M\bibinitperiod},
+           given={Hidehiko},
+           giveni={H\bibinitperiod}}}%
+        {{hash=cfc8d061c4de1abd14306743a056c78d}{%
+           family={Aotani},
+           familyi={A\bibinitperiod},
+           given={Tomoyuki},
+           giveni={T\bibinitperiod}}}%
+        {{hash=3c5fd2780fb7c6627c8787a1bad27d3f}{%
+           family={Cong},
+           familyi={C\bibinitperiod},
+           given={Youyou},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=961ffd271dddbdf7236fe373b6f92799}{%
+           family={Ito},
+           familyi={I\bibinitperiod},
+           given={Kei},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Shibaura Institute of Technology, Tokyo, Japan}%
+      }
+      \list{organization}{2}{%
+        {{J}apan Society for Software Science}%
+        {Technology ({JSSST})}%
+      }
+      \strng{namehash}{3920ba4518cb581d6766a3ff24d55b6a}
+      \strng{fullhash}{6ad1007759a77dfd0de5c568a3b73dad}
+      \strng{fullhashraw}{6ad1007759a77dfd0de5c568a3b73dad}
+      \strng{bibnamehash}{6ad1007759a77dfd0de5c568a3b73dad}
+      \strng{authorbibnamehash}{6ad1007759a77dfd0de5c568a3b73dad}
+      \strng{authornamehash}{3920ba4518cb581d6766a3ff24d55b6a}
+      \strng{authorfullhash}{6ad1007759a77dfd0de5c568a3b73dad}
+      \strng{authorfullhashraw}{6ad1007759a77dfd0de5c568a3b73dad}
+      \strng{editorbibnamehash}{961ffd271dddbdf7236fe373b6f92799}
+      \strng{editornamehash}{961ffd271dddbdf7236fe373b6f92799}
+      \strng{editorfullhash}{961ffd271dddbdf7236fe373b6f92799}
+      \strng{editorfullhashraw}{961ffd271dddbdf7236fe373b6f92799}
+      \field{extraname}{5}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Meta-interpreter-based language implementation frameworks, such as RPython and Truffe/Graal, are convenient tool for implementing state-of-the-art virtual machines. Those frameworks are classified into trace-based and method- (or ast-) based strategies. RPython uses a trace-based policy to compile straight execution paths, while Truffe/Graal leverages method invocation to compile entire method bodies. Each approach has its own advantages and disadvantages. The trace-based strategy is good at compiling pro- grams with many branching possibilities and able to reduce the size of compiled code, but it is weak at programs with varying control-flow. The method-based strategy is robust with the latter type of programs but it needs thorough method-inlining management to achieve excellent performance. To take advantage of both strategies, we propose a meta-hybrid compilation technique to integrate trace- and method-based compilations, as well as a proof-of-concept implementation called BacCaml. To achieve this goal, we develop a stack hybridization mechanism which makes it possible to coordinate trace- and method-based meta JIT compilation. In the implementation, we extend RPython's architecture and introduced a special syntax for realizing this system in a single interpreter definition.}
+      \field{annotation}{nonrefereed}
+      \field{booktitle}{Proceedings of the 36th JSSST Annual Conference}
+      \field{day}{27}
+      \field{month}{8}
+      \field{title}{A Stack Hybridization for Meta-hybrid Just-in-time Compilation}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \true{nocite}
+      \field{pages}{1\bibrangedash 9}
+      \range{pages}{9}
+      \verb{urlraw}
+      \verb http://jssst.or.jp/files/user/taikai/2019/proceedings.html
+      \endverb
+      \verb{url}
+      \verb http://jssst.or.jp/files/user/taikai/2019/proceedings.html
+      \endverb
+      \keyw{PyPy,BacCaml,MinCaml,RPython}
+    \endentry
+    \entry{10.1145/3328433.3328466}{inproceedings}{}{}
+      \name{author}{1}{}{%
+        {{hash=7f6dd2b57697d15613277e1284a6988c}{%
+           family={Izawa},
+           familyi={I\bibinitperiod},
+           given={Yusuke},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Genova, Italy}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{7f6dd2b57697d15613277e1284a6988c}
+      \strng{fullhash}{7f6dd2b57697d15613277e1284a6988c}
+      \strng{fullhashraw}{7f6dd2b57697d15613277e1284a6988c}
+      \strng{bibnamehash}{7f6dd2b57697d15613277e1284a6988c}
+      \strng{authorbibnamehash}{7f6dd2b57697d15613277e1284a6988c}
+      \strng{authornamehash}{7f6dd2b57697d15613277e1284a6988c}
+      \strng{authorfullhash}{7f6dd2b57697d15613277e1284a6988c}
+      \strng{authorfullhashraw}{7f6dd2b57697d15613277e1284a6988c}
+      \field{extraname}{5}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Meta-interpreter-based just-in-time compiler frameworks are useful to conveniently build a language runtime with reasonable execution performance.}
+      \field{annotation}{refereed}
+      \field{booktitle}{Proceedings of the Conference Companion of the 3rd International Conference on Art, Science, and Engineering of Programming}
+      \field{day}{2}
+      \field{isbn}{9781450362573}
+      \field{month}{4}
+      \field{series}{Programming 2019}
+      \field{title}{BacCaml: The Meta-Hybrid Just-in-Time Compiler}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \true{nocite}
+      \field{pages}{1\bibrangedash 3}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1145/3328433.3328466
+      \endverb
+    \endentry
+    \entry{10.1145/3328433.3328439}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{hash=7f6dd2b57697d15613277e1284a6988c}{%
+           family={Izawa},
+           familyi={I\bibinitperiod},
+           given={Yusuke},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=424533e9cd60e97301efe2081672b51e}{%
+           family={Masuhara},
+           familyi={M\bibinitperiod},
+           given={Hidehiko},
+           giveni={H\bibinitperiod}}}%
+        {{hash=cfc8d061c4de1abd14306743a056c78d}{%
+           family={Aotani},
+           familyi={A\bibinitperiod},
+           given={Tomoyuki},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Genova, Italy}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{8ec52ba3fa6d85b94a8d2ff9ee3aabab}
+      \strng{fullhash}{8ec52ba3fa6d85b94a8d2ff9ee3aabab}
+      \strng{fullhashraw}{8ec52ba3fa6d85b94a8d2ff9ee3aabab}
+      \strng{bibnamehash}{8ec52ba3fa6d85b94a8d2ff9ee3aabab}
+      \strng{authorbibnamehash}{8ec52ba3fa6d85b94a8d2ff9ee3aabab}
+      \strng{authornamehash}{8ec52ba3fa6d85b94a8d2ff9ee3aabab}
+      \strng{authorfullhash}{8ec52ba3fa6d85b94a8d2ff9ee3aabab}
+      \strng{authorfullhashraw}{8ec52ba3fa6d85b94a8d2ff9ee3aabab}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Meta-interpreter-based just-in-time compiler frameworks provide a convenient way for language designers to implement efficient virtual machines. Those frameworks either employ tracing-based or method- (or partial evaluation) based strategies, which have their own pros and cons. This paper proposes an approach to enable both tracing- and method-based compilation so that the runtime can selectively apply an appropriate strategy to different parts of a program. The proposal basically extends a meta-tracing compiler to method-based compilation by roll backing at conditional branches, trace-splitting at loop entries, and not following at function calls. As a proof-of-concept, we implemented a tiny meta-tracing compiler in MinCaml by following the RPython's architecture and extended it to support both tracing- and method-based compilation.}
+      \field{annotation}{refereed}
+      \field{booktitle}{Proceedings of the Conference Companion of the 3rd International Conference on Art, Science, and Engineering of Programming}
+      \field{day}{2}
+      \field{isbn}{9781450362573}
+      \field{month}{4}
+      \field{series}{Programming 2019}
+      \field{title}{Extending a Meta-Tracing Compiler to Mix Method and Tracing Compilation}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \true{nocite}
+      \field{pages}{1\bibrangedash 3}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1145/3328433.3328439
+      \endverb
+      \keyw{language implementation frameworks,tracing JIT compilation,RPython}
+    \endentry
+    \entry{izawa2018ppl}{misc}{}{}
+      \name{author}{3}{}{%
+        {{hash=7f6dd2b57697d15613277e1284a6988c}{%
+           family={Izawa},
+           familyi={I\bibinitperiod},
+           given={Yusuke},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=424533e9cd60e97301efe2081672b51e}{%
+           family={Masuhara},
+           familyi={M\bibinitperiod},
+           given={Hidehiko},
+           giveni={H\bibinitperiod}}}%
+        {{hash=cfc8d061c4de1abd14306743a056c78d}{%
+           family={Aotani},
+           familyi={A\bibinitperiod},
+           given={Tomoyuki},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{8ec52ba3fa6d85b94a8d2ff9ee3aabab}
+      \strng{fullhash}{8ec52ba3fa6d85b94a8d2ff9ee3aabab}
+      \strng{fullhashraw}{8ec52ba3fa6d85b94a8d2ff9ee3aabab}
+      \strng{bibnamehash}{8ec52ba3fa6d85b94a8d2ff9ee3aabab}
+      \strng{authorbibnamehash}{8ec52ba3fa6d85b94a8d2ff9ee3aabab}
+      \strng{authornamehash}{8ec52ba3fa6d85b94a8d2ff9ee3aabab}
+      \strng{authorfullhash}{8ec52ba3fa6d85b94a8d2ff9ee3aabab}
+      \strng{authorfullhashraw}{8ec52ba3fa6d85b94a8d2ff9ee3aabab}
+      \field{extraname}{3}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{nonrefereed}
+      \field{howpublished}{The 20nd JSSST Workshop on Programming and Programming Languages}
+      \field{month}{3}
+      \field{note}{Poster Presentation}
+      \field{title}{メタ混合 {JIT} コンパイラの提案}
+      \field{year}{2018}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://jssst-ppl.org/workshop/2018/program.html
+      \endverb
+      \verb{url}
+      \verb https://jssst-ppl.org/workshop/2018/program.html
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
